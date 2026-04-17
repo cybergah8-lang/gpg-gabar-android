@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">رمزگذاری - رمزگشایی</string>
+
+    <!-- About -->
+    <string name="about_label">دربارهٔ برنامه</string>
+    <string name="about_title">دربارهٔ برنامهٔ GPG Gabar</string>
+    <string name="about_text">این برنامه برای زنده نگه‌داشتن یاد یکی از قهرمانان جنگ میان گریلاهای آزادی‌خواه کرد و دولت ترکیه توسعه داده شده است: شهید گابار بوتان – عبدالرحیم ارزن، عضو فرماندهی «ایالت شهید دلیل» در سوی روژاوای زاپ و فرمانده فدایی هێزێن تایبەت.\n\nبرنامهٔ GPG Gabar بر پایهٔ PGP (Pretty Good Privacy) آماده شده و برای کارکردی آسان و امن روی تلفن‌ها و تبلت‌های ANDROID طراحی شده است. هدف اصلی برنامه این است که کاربران بتوانند فایل‌ها و نوشته‌های خود را به‌صورت امن رمزگذاری و رمزگشایی کنند. همهٔ ویژگی‌ها برای تضمین اعتماد و کارایی بالا به‌صورت گسترده آزموده شده‌اند.\n\nبرای امنیت در سطح بالا، گذرواژهٔ کاربرِ کلید باید بسیار قوی باشد و دست‌کم از ۱۰۰ نویسه تشکیل شود. گذرواژه‌هایی که این شرط را برآورده نکنند از سوی برنامه پذیرفته نمی‌شوند.\n\nامیدواریم این برنامه در گسترش ارتباط امن و مدیریت داده‌های رمزگذاری‌شده به شما کمک کند.\n\nبرنامهٔ GPG Gabar توسط گروه Cybergah آماده شده است.\n\nبرای همهٔ کاربران آرزوی موفقیت داریم…</string>
+
+    <!-- Help -->
+    <string name="help">راهنما</string>
+    <string name="help_home_title">شروع سریع</string>
+    <string name="help_home_body">از رمزگذاری، رمزگشایی یا رمزگذاری محتوای یک فایل متنی استفاده کنید.\nابتدا یک کلید بسازید یا وارد کنید.\nبرای اشتراک\u200cگذاری کلید عمومی از صادر کردن استفاده کنید.</string>
+    <string name="help_create_key_title">ساخت کلید</string>
+    <string name="help_create_key_body">1) یک نام وارد کنید.\n2) گذرواژه را حداقل ۱۰۰ نویسه قرار دهید.\n3) کلید را بسازید و گذرواژه را امن نگه دارید.\n\nگذرواژه را با کسی به اشتراک نگذارید.</string>
+    <string name="help_import_title">وارد کردن کلیدها</string>
+    <string name="help_import_body">1) یک یا چند فایل کلید با پسوند .asc را انتخاب کنید.\n2) برنامه کلید عمومی و کلید محرمانه را تشخیص می‌دهد.\n3) در صورت درخواست، گذرواژه را وارد کنید.\n4) کلید به\u200cصورت خودکار به فهرست اضافه می\u200cشود.</string>
+    <string name="help_export_title">صادر کردن کلیدها</string>
+    <string name="help_export_body">1) کلید یا کلیدهای مورد نظر برای صادر کردن را انتخاب کنید.\n2) فقط عمومی یا عمومی + محرمانه را انتخاب کنید.\n3) مقصد را انتخاب کنید.\n4) در صورت درخواست، عبارت گذرواژه را وارد کنید.\n5) فایل‌ها با نام name-public.asc و name-secret.asc ذخیره می‌شوند.</string>
+    <string name="help_encrypt_file_title">رمزگذاری فایل (.gpg)</string>
+    <string name="help_encrypt_file_body">1) فایل مورد نظر برای رمزگذاری را انتخاب کنید.\n2) یک یا چند کلید عمومی انتخاب کنید.\n3) محل ذخیره نتیجه رمزگذاری‌شده را انتخاب کنید.\n4) خروجی به صورت فایل .gpg ذخیره می‌شود.\n\nبرای رمزگشایی به کلید محرمانهٔ متناظر و عبارت گذرواژه نیاز است.</string>
+    <string name="help_decrypt_file_title">رمزگشایی فایل</string>
+    <string name="help_decrypt_file_body">1) یک فایل با پسوند .gpg یا .pgp انتخاب کنید.\n2) برنامه در صورت وجود، کلید خصوصی را جست\u200cوجو و شناسایی می\u200cکند و فرآیند رمزگشایی را هدایت می\u200cکند.\n3) اگر کلید در برنامه ذخیره شده باشد، گذرواژه را درخواست نمی\u200cکند.\n4) محل ذخیره فایل رمزگشایی\u200cشده را انتخاب کنید.</string>
+    <string name="help_text_title">رمزگذاری / رمزگشایی متن</string>
+    <string name="help_text_body">1) متن را بنویسید یا یک فایل متنی را باز کنید.\n2) کلیدها را انتخاب کنید.\n3) متن را رمزگذاری یا رمزگشایی کنید.\n4) در صورت درخواست، گذرواژه را وارد کنید.\n\nذخیره متن فعلی را به صورت فایل .txt ذخیره می\u200cکند.</string>
+    <string name="help_delete_title">حذف کلیدها</string>
+    <string name="help_delete_body">1) کلیدهایی را که می‌خواهید حذف کنید انتخاب کنید.\n2) حذف را تأیید کنید.\n\nنکته: این کار قابل بازگشت نیست.</string>
+
+    <!-- Common labels -->
+    <string name="name">نام</string>
+    <string name="type">نوع</string>
+    <string name="password">رمز عبور</string>
+    <string name="passphrase">عبارت عبور</string>
+    <string name="save">ذخیره</string>
+    <string name="export">صدور</string>
+    <string name="delete">حذف</string>
+    <string name="encrypt">رمزگذاری</string>
+    <string name="decrypt">رمزگشایی</string>
+    <string name="import_">وارد کردن</string>
+    <string name="public_">عمومی</string>
+    <string name="secret">خصوصی</string>
+    <string name="choose_file">انتخاب فایل</string>
+    <string name="choose_gpg_file">انتخاب فایل .gpg</string>
+    <string name="key_name_exists">کلیدی با همین نام وجود دارد</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">رمزگذاری متن</string>
+    <string name="decrypt_text">رمزگشایی متن</string>
+    <string name="content_label">محتوا</string>
+    <string name="encrypted_success">رمزگذاری شد</string>
+    <string name="decrypted_success">رمزگشایی شد</string>
+    <string name="text_file_title">فایل متنی</string>
+    <string name="text_file_opened">فایل متنی باز شد</string>
+    <string name="file_saved">فایل ذخیره شد</string>
+    <string name="save_textfile_action">ذخیرهٔ محتوای متن</string>
+    <string name="select_keys_label">کلید(ها) را انتخاب کنید</string>
+    <string name="please_select_at_least_one_public_key">برای رمزگذاری حداقل یک کلید عمومی انتخاب کنید</string>
+    <string name="no_text_to_encrypt">متنی برای رمزگذاری وجود ندارد</string>
+
+    <!-- Home actions -->
+    <string name="create_key">ایجاد کلید</string>
+    <string name="text_file">متن</string>
+    <string name="create_new_key">ایجاد کلید جدید</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">برای رمزگذاری یک کلید عمومی انتخاب کنید:</string>
+    <string name="please_select_key">لطفاً یک کلید انتخاب کنید</string>
+    <string name="please_select_file">لطفاً یک فایل انتخاب کنید</string>
+    <string name="key_not_found">کلید پیدا نشد</string>
+    <string name="encrypt_and_save">رمزگذاری و ذخیره</string>
+    <string name="file_selected">فایل انتخاب شد</string>
+    <string name="encrypted_file_saved">فایل رمزگذاری‌شده (.gpg) ذخیره شد</string>
+    <string name="encryption_file_selected">فایل برای رمزگذاری انتخاب شد</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">برای رمزگشایی یک کلید خصوصی انتخاب کنید:</string>
+    <string name="please_enter_passphrase">لطفاً عبارت عبور را وارد کنید</string>
+    <string name="enter_passphrase">عبارت عبور را وارد کنید</string>
+    <string name="please_choose_gpg_file">لطفاً یک فایل .gpg انتخاب کنید</string>
+    <string name="decrypted_and_saved">رمزگشایی شد و فایل ذخیره شد</string>
+    <string name="decrypt_and_save">رمزگشایی و ذخیره</string>
+    <string name="encrypted_file_selected">فایل رمزگذاری‌شده انتخاب شد</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">وارد کردن کلید (.asc):</string>
+    <string name="public_key_selected">کلید عمومی انتخاب شد</string>
+    <string name="secret_key_selected">کلید خصوصی انتخاب شد</string>
+    <string name="both_keys_detected">هر دو کلید شناسایی شدند</string>
+    <string name="suggested_name">نام پیشنهادی: %1$s</string>
+    <string name="not_a_valid_public_key">فایل انتخاب‌شده یک کلید عمومی معتبر نیست</string>
+    <string name="import_success">وارد کردن با موفقیت انجام شد</string>
+    <string name="import_failed">وارد کردن ناموفق بود</string>
+    <string name="public_key_missing_for_secret">کلید خصوصی یافت شد اما کلید عمومی در همان فایل پیدا نشد</string>
+    <string name="save_to_table">ذخیره در جدول</string>
+    <string name="verifying_passphrase">در حال بررسی عبارت عبور…</string>
+    <string name="passphrase_incorrect">عبارت عبور نادرست است یا کلید باز نشد</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">لطفاً نام و رمز عبور را وارد کنید</string>
+    <string name="db_save_failed">ذخیره در پایگاه داده ناموفق بود</string>
+    <string name="min_password_length">رمز عبور باید حداقل 100 نویسه باشد</string>
+    <string name="generated_password_message">یک رمز عبور قوی ایجاد شد</string>
+    <string name="show">نمایش</string>
+    <string name="hide">پنهان</string>
+    <string name="key_created_and_saved">کلید ایجاد و ذخیره شد</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">برای صدور، یک کلید انتخاب کنید:</string>
+    <string name="no_keys">هیچ کلیدی وجود ندارد.</string>
+    <string name="export_success_asc">کلیدها با قالب ASC صادر شدند</string>
+    <string name="export_choice_title">نوع صدور</string>
+    <string name="export_choice_message">چه چیزی را برای «%1$s» می‌خواهید صادر کنید؟</string>
+    <string name="export_public_only">فقط کلید عمومی</string>
+    <string name="export_both_keys">کلید عمومی + خصوصی</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">برای حذف، یک کلید انتخاب کنید:</string>
+    <string name="confirm_delete_title">تأیید حذف</string>
+    <string name="confirm_delete_message">آیا کلید با نام «%1$s» حذف شود؟ این عمل قابل بازگشت نیست.</string>
+    <string name="confirm_delete_multiple_message">آیا %1$d کلید حذف شوند؟ این عمل قابل بازگشت نیست.</string>
+    <string name="delete_success">کلید حذف شد</string>
+    <string name="delete_failed">حذف ناموفق بود</string>
+    <string name="delete_selected">حذف انتخاب‌شده‌ها (%1$d)</string>
+    <string name="delete_database">حذف پایگاه داده</string>
+    <string name="confirm_delete_db_title">آیا پایگاه داده حذف شود؟</string>
+    <string name="confirm_delete_db_message">همهٔ رکوردهای کلید حذف خواهند شد. این عمل قابل بازگشت نیست.</string>
+    <string name="db_deleted_success">پایگاه داده حذف شد</string>
+    <string name="db_deleted_failed">حذف پایگاه داده ناموفق بود</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">خواندن فایل ناموفق بود: %1$s</string>
+    <string name="save_failed_with_reason">ذخیره ناموفق بود: %1$s</string>
+    <string name="encrypt_failed_with_reason">رمزگذاری ناموفق بود: %1$s</string>
+    <string name="decrypt_failed_with_reason">رمزگشایی ناموفق بود: %1$s</string>
+    <string name="error_with_reason">خطا: %1$s</string>
+    <string name="export_failed_with_reason">صدور ناموفق بود: %1$s</string>
+    <string name="not_a_valid_encrypted_file">فایل انتخاب‌شده یک فایل رمزگذاری‌شدهٔ معتبر نیست</string>
+    <string name="key_incorrect">کلیدی که انتخاب کردید برای این فایل معتبر نیست</string>
+    <string name="no_matching_secret_key">کلید خصوصی مناسب یافت نشد</string>
+    <string name="passphrase_required_auto_decrypt">برای این فایل یک کلید خصوصی مناسب یافت شد اما به عبارت عبور نیاز دارد</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">لغو</string>
+    <string name="operation_cancelled">عملیات لغو شد</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">تنظیمات زبان</string>
+    <string name="use_toggles_below">لطفاً از دکمه‌های زبان زیر استفاده کنید</string>
+</resources>

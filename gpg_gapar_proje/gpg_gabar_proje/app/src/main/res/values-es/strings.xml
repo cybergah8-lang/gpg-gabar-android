@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">Cifrar - Descifrar</string>
+
+    <!-- About -->
+    <string name="about_label">Acerca de</string>
+    <string name="about_title">Acerca de GPG Gabar</string>
+    <string name="about_text">Este programa se desarrolló para mantener viva la memoria de uno de los héroes de la guerra entre las guerrillas kurdas por la libertad y el Estado turco: Şehid Gabar Botan - Abdurrahim Erzen, miembro del mando del Estado Şehid Delil en el lado de Rojava de Zap y comandante fedai de Hêzên Taybet.\n\nEl programa GPG Gabar se basa en PGP (Pretty Good Privacy) y está diseñado para funcionar de forma fácil y segura en teléfonos y tabletas ANDROID. El objetivo principal del programa es que los usuarios puedan cifrar y descifrar de manera segura sus archivos y textos. Todas las funciones se han probado exhaustivamente para ofrecer alta confianza y rendimiento.\n\nPara un nivel superior de seguridad, la contraseña del usuario de la clave debe ser muy fuerte y constar de al menos 100 caracteres. Las contraseñas que no cumplan este requisito no son aceptadas por la aplicación.\n\nEsperamos que este programa le ayude a desarrollar una comunicación segura y a gestionar datos cifrados.\n\nEl programa GPG Gabar fue preparado por el Grupo Cybergah.\n\nDeseamos a todos los usuarios muchos éxitos…</string>
+
+    <!-- Help -->
+    <string name="help">Ayuda</string>
+    <string name="help_home_title">Inicio rápido</string>
+    <string name="help_home_body">Usa Cifrar, Descifrar o cifrar el contenido de un archivo de texto.\nPrimero crea o importa una clave.\nUsa Exportar para compartir tu clave pública.</string>
+    <string name="help_create_key_title">Crear una clave</string>
+    <string name="help_create_key_body">1) Escribe un nombre.\n2) Establece una contraseña de al menos 100 caracteres.\n3) Crea la clave y guarda la contraseña en un lugar seguro.\n\nNo compartas la contraseña.</string>
+    <string name="help_import_title">Importar claves</string>
+    <string name="help_import_body">1) Selecciona uno o más archivos de clave .asc.\n2) La aplicación detecta claves públicas y secretas.\n3) Introduce la contraseña si se solicita.\n4) La clave se añade automáticamente a la lista.</string>
+    <string name="help_export_title">Exportar claves</string>
+    <string name="help_export_body">1) Selecciona las claves a exportar.\n2) Elige Solo pública o Pública + Secreta.\n3) Elige el destino.\n4) Introduce la frase de contraseña si se solicita.\n5) Los archivos se guardan como name-public.asc y name-secret.asc.</string>
+    <string name="help_encrypt_file_title">Cifrar un archivo (.gpg)</string>
+    <string name="help_encrypt_file_body">1) Selecciona el archivo que quieres cifrar.\n2) Selecciona una o más claves públicas.\n3) Elige dónde guardar el resultado cifrado.\n4) La salida se guarda como un archivo .gpg.\n\nPara descifrar necesitas la clave secreta correspondiente y la frase de contraseña.</string>
+    <string name="help_decrypt_file_title">Descifrar un archivo</string>
+    <string name="help_decrypt_file_body">1) Selecciona un archivo .gpg o .pgp.\n2) La aplicación busca y detecta la clave privada (si está disponible) y guía el proceso de descifrado.\n3) Si la clave está guardada en la aplicación, no pedirá la contraseña.\n4) Elige dónde guardar el archivo descifrado.</string>
+    <string name="help_text_title">Cifrar / Descifrar texto</string>
+    <string name="help_text_body">1) Escribe texto o abre un archivo de texto.\n2) Selecciona claves.\n3) Cifra o descifra el texto.\n4) Introduce la contraseña si se solicita.\n\nGuardar guarda el texto actual como archivo .txt.</string>
+    <string name="help_delete_title">Eliminar claves</string>
+    <string name="help_delete_body">1) Selecciona las claves que quieres eliminar.\n2) Confirma la eliminación.\n\nNota: No se puede deshacer.</string>
+
+    <!-- Common labels -->
+    <string name="name">Nombre</string>
+    <string name="type">Tipo</string>
+    <string name="password">Contraseña</string>
+    <string name="passphrase">Frase de contraseña</string>
+    <string name="enter_passphrase">Introducir frase de contraseña</string>
+    <string name="save">Guardar</string>
+    <string name="export">Exportar</string>
+    <string name="delete">Eliminar</string>
+    <string name="encrypt">Cifrar</string>
+    <string name="decrypt">Descifrar</string>
+    <string name="import_">Importar</string>
+    <string name="public_">Público</string>
+    <string name="secret">Secreto</string>
+    <string name="choose_file">Elegir archivo</string>
+    <string name="choose_gpg_file">Elegir archivo .gpg</string>
+    <string name="key_name_exists">Ya existe una clave con el mismo nombre</string>
+    <string name="no_text_to_encrypt">No hay texto para cifrar</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">Cifrar texto</string>
+    <string name="decrypt_text">Descifrar texto</string>
+    <string name="content_label">Contenido</string>
+    <string name="encrypted_success">Cifrado</string>
+    <string name="decrypted_success">Descifrado</string>
+    <string name="text_file_title">Archivo de texto</string>
+    <string name="text_file_opened">Archivo de texto abierto</string>
+    <string name="file_saved">Archivo guardado</string>
+    <string name="save_textfile_action">Guardar contenido del texto</string>
+    <string name="select_keys_label">Seleccionar clave(s)</string>
+    <string name="please_select_at_least_one_public_key">Selecciona al menos una clave pública para cifrar</string>
+
+    <!-- Home actions -->
+    <string name="create_key">Crear clave</string>
+    <string name="text_file">Archivo de texto</string>
+    <string name="create_new_key">Crear nueva clave</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">Selecciona una clave pública para cifrar:</string>
+    <string name="please_select_key">Por favor, selecciona una clave</string>
+    <string name="please_select_file">Por favor, selecciona un archivo</string>
+    <string name="key_not_found">Clave no encontrada</string>
+    <string name="encrypt_and_save">Cifrar y guardar</string>
+    <string name="file_selected">Archivo seleccionado</string>
+    <string name="encrypted_file_saved">Archivo cifrado (.gpg) guardado</string>
+    <string name="encryption_file_selected">Archivo seleccionado para cifrar</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">Selecciona una clave privada para descifrar:</string>
+    <string name="please_enter_passphrase">Por favor, introduce la frase de contraseña</string>
+    <string name="please_choose_gpg_file">Por favor, elige un archivo .gpg</string>
+    <string name="decrypted_and_saved">Descifrado y guardado</string>
+    <string name="decrypt_and_save">Descifrar y guardar</string>
+    <string name="encrypted_file_selected">Archivo cifrado seleccionado</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">Importar clave (.asc):</string>
+    <string name="public_key_selected">Clave pública seleccionada</string>
+    <string name="secret_key_selected">Clave secreta seleccionada</string>
+    <string name="both_keys_detected">Se detectaron la clave pública y la secreta</string>
+    <string name="suggested_name">Nombre sugerido: %1$s</string>
+    <string name="not_a_valid_public_key">El archivo seleccionado no es una clave pública válida</string>
+    <string name="import_success">Importación exitosa</string>
+    <string name="import_failed">Error al importar</string>
+    <string name="public_key_missing_for_secret">Se encontró la clave secreta, pero no se encontró la clave pública en el mismo archivo</string>
+    <string name="save_to_table">Guardar en la lista</string>
+    <string name="verifying_passphrase">Verificando la frase de contraseña…</string>
+    <string name="passphrase_incorrect">Frase de contraseña incorrecta o no se pudo desbloquear la clave</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">Por favor, introduce un nombre y una contraseña</string>
+    <string name="key_created_and_saved">Clave creada y guardada</string>
+    <string name="db_save_failed">Error al guardar en la base de datos</string>
+    <string name="min_password_length">La contraseña debe tener al menos 100 caracteres</string>
+    <string name="generated_password_message">Se generó una contraseña fuerte</string>
+    <string name="show">Mostrar</string>
+    <string name="hide">Ocultar</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">Selecciona una clave para exportar la clave pública:</string>
+    <string name="no_keys">No hay claves.</string>
+    <string name="export_success_asc">Claves exportadas como ASC</string>
+    <string name="export_choice_title">Tipo de exportación</string>
+    <string name="export_choice_message">¿Qué deseas exportar para \"%1$s\"?</string>
+    <string name="export_public_only">Solo clave pública</string>
+    <string name="export_both_keys">Clave pública + clave secreta</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">Selecciona una clave para eliminar:</string>
+    <string name="confirm_delete_title">Confirmar eliminación</string>
+    <string name="confirm_delete_message">¿Eliminar la clave \"%1$s\"? Esto no se puede deshacer.</string>
+    <string name="confirm_delete_multiple_message">¿Eliminar %1$d claves? Esto no se puede deshacer.</string>
+    <string name="delete_success">Clave eliminada</string>
+    <string name="delete_failed">Error al eliminar</string>
+    <string name="delete_selected">Eliminar seleccionadas (%1$d)</string>
+    <string name="delete_database">Eliminar base de datos</string>
+    <string name="confirm_delete_db_title">¿Eliminar la base de datos?</string>
+    <string name="confirm_delete_db_message">Se eliminarán todos los registros de claves. Esto no se puede deshacer.</string>
+    <string name="db_deleted_success">Base de datos eliminada</string>
+    <string name="db_deleted_failed">No se pudo eliminar la base de datos</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">No se pudo leer el archivo: %1$s</string>
+    <string name="save_failed_with_reason">Error al guardar: %1$s</string>
+    <string name="encrypt_failed_with_reason">Error al cifrar: %1$s</string>
+    <string name="decrypt_failed_with_reason">Error al descifrar: %1$s</string>
+    <string name="error_with_reason">Error: %1$s</string>
+    <string name="export_failed_with_reason">Error al exportar: %1$s</string>
+    <string name="not_a_valid_encrypted_file">El archivo seleccionado no es un archivo cifrado válido</string>
+    <string name="key_incorrect">La clave seleccionada no es válida para este archivo</string>
+    <string name="no_matching_secret_key">No se encontró una clave secreta coincidente</string>
+    <string name="passphrase_required_auto_decrypt">Se encontró una clave secreta coincidente para este archivo, pero se requiere una frase de contraseña</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">Cancelar</string>
+    <string name="operation_cancelled">Operación cancelada</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">Configuración de idioma</string>
+    <string name="use_toggles_below">Usa las opciones de idioma a continuación</string>
+</resources>

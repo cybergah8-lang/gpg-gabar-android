@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">تشفير - فك التشفير</string>
+    <string name="about_label">حول البرنامج</string>
+    <string name="about_title">حول برنامج GPG Gabar</string>
+    <string name="about_text">تم تطوير هذا البرنامج لإحياء ذكرى أحد أبطال الحرب بين كريلا حرية كردستان والدولة التركية: الشهيد كابار بوتان – عبد الرحيم أرزن، عضو قيادة «إيالة الشهيد دليل» في جهة روجافا من زاب وقائد فدائي في هێزێن تایبەت.\n\nبرنامج GPG Gabar مُعَدّ على أساس PGP (Pretty Good Privacy)، ومصمم ليعمل على هواتف وأجهزة ANDROID اللوحية بسهولة وأمان. الهدف الأساسي للبرنامج هو تمكين المستخدمين من تشفير ملفاتهم ونصوصهم وفكّها بصورة آمنة. وقد تم اختبار جميع الميزات بشكل واسع لضمان أعلى موثوقية وأداء.\n\nلأعلى مستوى من الأمان، يجب أن تكون كلمة مرور مستخدم المفتاح قوية جداً وتتكون من 100 حرف على الأقل. كلمات المرور التي لا تستوفي هذا الشرط لا يقبلها البرنامج.\n\nنأمل أن يساعدكم هذا البرنامج في تطوير التواصل الآمن وإدارة البيانات المشفرة.\n\nتم إعداد برنامج GPG Gabar من قبل مجموعة Cybergah.\n\nنتمنى لجميع المستخدمين التوفيق…</string>
+    
+    <!-- Help -->
+    <string name="help">مساعدة</string>
+    <string name="help_home_title">بدء سريع</string>
+    <string name="help_home_body">استخدم التشفير أو فك التشفير أو تشفير محتوى ملف نصي.\nأنشئ مفتاحاً أو استورد مفتاحاً أولاً.\nاستخدم التصدير لمشاركة المفتاح العام.</string>
+    <string name="help_create_key_title">إنشاء مفتاح</string>
+    <string name="help_create_key_body">1) اكتب الاسم.\n2) اجعل كلمة المرور لا تقل عن 100 حرف.\n3) أنشئ المفتاح واحتفظ بكلمة المرور بأمان.\n\nلا تشارك كلمة المرور مع أي شخص.</string>
+    <string name="help_import_title">استيراد المفاتيح</string>
+    <string name="help_import_body">1) اختر ملفاً أو عدة ملفات مفاتيح بامتداد .asc.\n2) يكتشف التطبيق المفاتيح العامة والسرية تلقائياً.\n3) أدخل كلمة المرور إذا طُلبت.\n4) سوف يتم اضافة المفتاح تلقائيا إلى القائمة.</string>
+    <string name="help_export_title">تصدير المفاتيح</string>
+    <string name="help_export_body">1) اختر المفتاح أو المفاتيح للتصدير.\n2) اختر عام فقط أو عام + سري.\n3) اختر مكان الحفظ.\n4) أدخل كلمة المرور إذا طُلبت.\n5) تُحفظ الملفات باسم name-public.asc و name-secret.asc.</string>
+    <string name="help_encrypt_file_title">تشفير ملف (.gpg)</string>
+    <string name="help_encrypt_file_body">1) اختر الملف المراد تشفيره.\n2) اختر مفتاحاً عاماً واحداً على الأقل.\n3) اختر مكان الحفظ.\n4) يتم حفظ الناتج كملف .gpg.\n\nلفك التشفير تحتاج إلى المفتاح السري المطابق وعبارة المرور.</string>
+    <string name="help_decrypt_file_title">فك تشفير ملف</string>
+    <string name="help_decrypt_file_body">1) اختر ملفاً بامتداد .gpg أو .pgp.\n2) البرنامج يبحث ويتعرف على المفتاح الخاص اذا كان موجوداً ويقود عملية فك التشفير.\n3) اذا كان المفتاح محفوظ في البرنامج لن يطلب كلمة المرور.\n4) اختر مكان حفظ الملف المفكوك.</string>
+    <string name="help_text_title">تشفير / فك تشفير نص</string>
+    <string name="help_text_body">1) اكتب النص أو افتح ملفاً نصياً.\n2) اختر المفاتيح.\n3) شفّر النص أو فك تشفيره.\n4) أدخل عبارة المرور إذا طُلبت.\n\nالحفظ يخزن النص الحالي كملف .txt.</string>
+    <string name="help_delete_title">حذف المفاتيح</string>
+    <string name="help_delete_body">1) اختر المفاتيح التي تريد حذفها.\n2) أكد الحذف.\n\nملاحظة: لا يمكن التراجع عن الحذف.</string>
+
+    <!-- Common labels -->
+    <string name="name">الاسم</string>
+    <string name="type">النوع</string>
+    <string name="password">كلمة المرور</string>
+    <string name="passphrase">كلمة المرور</string>
+    <string name="save">حفظ</string>
+    <string name="export">تصدير</string>
+    <string name="delete">حذف</string>
+    <string name="encrypt">تشفير</string>
+    <string name="decrypt">فك التشفير</string>
+    <string name="import_">استيراد</string>
+    <string name="public_">عام</string>
+    <string name="secret">خاص</string>
+    <string name="choose_file">اختر ملفاً</string>
+    <string name="choose_gpg_file">اختر ملف .gpg</string>
+    <string name="key_name_exists">يوجد مفتاح بنفس الاسم</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">تشفير النص</string>
+    <string name="decrypt_text">فك تشفير النص</string>
+    <string name="content_label">المحتوى</string>
+    <string name="encrypted_success">تم التشفير</string>
+    <string name="decrypted_success">تم فك التشفير</string>
+    <string name="text_file_title">ملف نصي</string>
+    <string name="text_file_opened">تم فتح الملف النصي</string>
+    <string name="file_saved">تم حفظ الملف</string>
+    <string name="save_textfile_action">حفظ الملف</string>
+    <string name="select_keys_label">اختر المفتاح/المفاتيح</string>
+    <string name="please_select_at_least_one_public_key">للتشفير، اختر مفتاحاً عاماً واحداً على الأقل</string>
+
+    <!-- Import screen additions (to avoid Turkish fallback) -->
+    <string name="save_to_table">حفظ في الجدول</string>
+    <string name="no_text_to_encrypt">لا يوجد نص لتشفيره</string>
+
+    <!-- Home actions -->
+    <string name="create_key">إنشاء مفتاح</string>
+    <string name="text_file">ملف نصي</string>
+
+    <!-- New explicit button labels per screen -->
+    <string name="create_new_key">إنشاء مفتاح جديد</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">اختر مفتاحاً عاماً للتشفير:</string>
+    <string name="please_select_key">الرجاء اختيار مفتاح</string>
+    <string name="please_select_file">الرجاء اختيار ملف</string>
+    <string name="key_not_found">لم يتم العثور على المفتاح</string>
+    <string name="encrypt_and_save">شفّر واحفظ</string>
+    <string name="file_selected">تم اختيار الملف</string>
+    <string name="encrypted_file_saved">تم حفظ الملف المشفر (.gpg)</string>
+    <string name="encryption_file_selected">تم اختيار ملف للتشفير.</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">اختر ملفاً مشفراً لفك تشفيره:</string>
+    <string name="please_enter_passphrase">الرجاء إدخال كلمة المرور</string>
+    <string name="enter_passphrase">أدخل كلمة المرور</string>
+    <string name="please_choose_gpg_file">الرجاء اختيار ملف .gpg</string>
+    <string name="decrypted_and_saved">تم فك التشفير وحفظ الملف</string>
+    <string name="decrypt_and_save">فك التشفير والحفظ</string>
+    <string name="encrypted_file_selected">تم اختيار ملف مشفر.</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">استيراد المفتاح (.asc):</string>
+    <string name="public_key_selected">تم اختيار المفتاح العام</string>
+    <string name="secret_key_selected">تم اختيار المفتاح الخاص</string>
+    <string name="both_keys_detected">تم العثور على المفتاح العام والخاص</string>
+    <string name="suggested_name">الاسم المقترح: %1$s</string>
+    <string name="not_a_valid_public_key">الملف المختار ليس مفتاحاً عاماً صالحاً</string>
+    <string name="import_success">تم الاستيراد بنجاح</string>
+    <string name="import_failed">فشل الاستيراد</string>
+    <string name="public_key_missing_for_secret">تم العثور على مفتاح خاص ولكن لم يُعثر على المفتاح العام في الملف نفسه</string>
+    <string name="verifying_passphrase">جارٍ التحقق من كلمة المرور…</string>
+    <string name="passphrase_incorrect">كلمة المرور غير صحيحة أو تعذّر فك المفتاح</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">الرجاء إدخال الاسم وكلمة المرور</string>
+    <string name="db_save_failed">فشل الحفظ في قاعدة البيانات</string>
+    <string name="min_password_length">يجب أن تكون كلمة المرور بطول 100 حرف على الأقل</string>
+    <string name="generated_password_message">تم إنشاء كلمة مرور قوية</string>
+    <string name="show">إظهار</string>
+    <string name="hide">إخفاء</string>
+    <string name="key_created_and_saved">تم إنشاء المفتاح وحفظه</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">اختر مفتاحاً لتصدير المفتاح العام:</string>
+    <string name="no_keys">لا توجد مفاتيح.</string>
+    <string name="export_success_asc">تم تصدير المفاتيح بصيغة ASC</string>
+    <string name="export_choice_title">نوع التصدير</string>
+    <string name="export_choice_message">ماذا تريد تصديره لـ "%1$s"؟</string>
+    <string name="export_public_only">المفتاح العام فقط</string>
+    <string name="export_both_keys">المفتاح العام + الخاص</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">اختر مفتاحاً للحذف:</string>
+    <string name="confirm_delete_title">تأكيد الحذف</string>
+    <string name="confirm_delete_message">هل تريد حذف المفتاح المسمى "%1$s"؟ لا يمكن التراجع عن هذه العملية.</string>
+    <string name="confirm_delete_multiple_message">هل تريد حذف %1$d مفتاحاً؟ لا يمكن التراجع عن هذه العملية.</string>
+    <string name="delete_success">تم حذف المفتاح</string>
+    <string name="delete_failed">فشل الحذف</string>
+    <string name="delete_selected">احذف المحدد (%1$d)</string>
+    <string name="delete_database">حذف قاعدة البيانات</string>
+    <string name="confirm_delete_db_title">هل تريد حذف قاعدة البيانات؟</string>
+    <string name="confirm_delete_db_message">سيتم حذف جميع سجلات المفاتيح. لا يمكن التراجع عن هذه العملية.</string>
+    <string name="db_deleted_success">تم حذف قاعدة البيانات</string>
+    <string name="db_deleted_failed">تعذّر حذف قاعدة البيانات</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">تعذّر قراءة الملف: %1$s</string>
+    <string name="save_failed_with_reason">فشل الحفظ: %1$s</string>
+    <string name="encrypt_failed_with_reason">فشل التشفير: %1$s</string>
+    <string name="decrypt_failed_with_reason">فشل فك التشفير: %1$s</string>
+    <string name="error_with_reason">خطأ: %1$s</string>
+    <string name="export_failed_with_reason">فشل التصدير: %1$s</string>
+    <string name="not_a_valid_encrypted_file">الملف المختار ليس ملفاً مشفراً صالحاً</string>
+    <string name="key_incorrect">المفتاح الذي اخترته غير صالح لهذا الملف</string>
+    <string name="no_matching_secret_key">لم يتم العثور على مفتاح خاص مناسب</string>
+    <string name="passphrase_required_auto_decrypt">تم العثور على مفتاح خاص مناسب لهذا الملف ولكن يتطلب كلمة المرور</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">إلغاء</string>
+    <string name="operation_cancelled">تم إلغاء العملية</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">إعدادات اللغة</string>
+    <string name="use_toggles_below">الرجاء استخدام أزرار اللغة أدناه</string>
+</resources>

@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">加密 - 解密</string>
+
+    <!-- About -->
+    <string name="about_label">关于</string>
+    <string name="about_title">关于 GPG Gabar</string>
+    <string name="about_text">本程序为纪念库尔德自由游击队与土耳其国家之间战争中的一位英雄而开发：扎普罗贾瓦一侧“Şehid Delil”州指挥部成员、Hêzên Taybet 的费代伊指挥官——Şehid Gabar Botan - Abdurrahim Erzen。\n\nGPG Gabar 程序基于 PGP（Pretty Good Privacy），旨在让其在 ANDROID 手机和平板上轻松且安全地运行。程序的主要目标是让用户能够安全地加密与解密他们的文件与文本。所有功能均经过全面测试，以确保高可信度与性能。\n\n为达到高等级安全性，密钥用户的密码必须非常强，并且至少包含 100 个字符。不满足该要求的密码将不会被应用接受。\n\n我们希望本程序能帮助你发展安全通信并管理加密数据。\n\nGPG Gabar 程序由 Cybergah 团队准备。\n\n祝所有用户成功…</string>
+
+    <!-- Help -->
+    <string name="help">帮助</string>
+    <string name="help_home_title">快速开始</string>
+    <string name="help_home_body">使用加密、解密，或加密文本文件内容。\n先创建或导入密钥。\n使用导出来分享公钥。</string>
+    <string name="help_create_key_title">创建密钥</string>
+    <string name="help_create_key_body">1) 输入名称。\n2) 设置不少于 100 个字符的密码。\n3) 创建密钥并妥善保存密码。\n\n不要分享密码。</string>
+    <string name="help_import_title">导入密钥</string>
+    <string name="help_import_body">1) 选择一个或多个 .asc 密钥文件。\n2) 应用会识别公钥和私钥。\n3) 如提示请输入密码。\n4) 密钥会自动添加到列表。</string>
+    <string name="help_export_title">导出密钥</string>
+    <string name="help_export_body">1) 选择要导出的密钥。\n2) 选择 仅公钥 或 公钥+私钥。\n3) 选择保存位置。\n4) 如提示请输入口令。\n5) 文件将保存为 name-public.asc 和 name-secret.asc。</string>
+    <string name="help_encrypt_file_title">加密文件 (.gpg)</string>
+    <string name="help_encrypt_file_body">1) 选择要加密的文件。\n2) 选择一个或多个公钥。\n3) 选择保存加密结果的位置。\n4) 输出会保存为 .gpg 文件。\n\n解密需要对应的私钥和口令。</string>
+    <string name="help_decrypt_file_title">解密文件</string>
+    <string name="help_decrypt_file_body">1) 选择 .gpg 或 .pgp 文件。\n2) 应用会查找并识别私钥（如有），并引导解密过程。\n3) 如果密钥已保存在应用中，将不会要求输入密码。\n4) 选择解密后文件的保存位置。</string>
+    <string name="help_text_title">加密 / 解密文本</string>
+    <string name="help_text_body">1) 输入文本或打开文本文件。\n2) 选择密钥。\n3) 加密或解密文本。\n4) 如提示请输入密码。\n\n保存会将当前内容保存为 .txt 文件。</string>
+    <string name="help_delete_title">删除密钥</string>
+    <string name="help_delete_body">1) 选择要删除的密钥。\n2) 确认删除。\n\n注意：无法撤销。</string>
+
+    <!-- Common labels -->
+    <string name="name">名称</string>
+    <string name="type">类型</string>
+    <string name="password">密码</string>
+    <string name="passphrase">口令</string>
+    <string name="enter_passphrase">输入口令</string>
+    <string name="save">保存</string>
+    <string name="export">导出</string>
+    <string name="delete">删除</string>
+    <string name="encrypt">加密</string>
+    <string name="decrypt">解密</string>
+    <string name="import_">导入</string>
+    <string name="public_">公钥</string>
+    <string name="secret">私钥</string>
+    <string name="choose_file">选择文件</string>
+    <string name="choose_gpg_file">选择 .gpg 文件</string>
+    <string name="key_name_exists">已存在同名密钥</string>
+    <string name="no_text_to_encrypt">没有可加密的文本</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">加密文本</string>
+    <string name="decrypt_text">解密文本</string>
+    <string name="content_label">内容</string>
+    <string name="encrypted_success">已加密</string>
+    <string name="decrypted_success">已解密</string>
+    <string name="text_file_title">文本文件</string>
+    <string name="text_file_opened">已打开文本文件</string>
+    <string name="file_saved">文件已保存</string>
+    <string name="save_textfile_action">保存文本内容</string>
+    <string name="select_keys_label">选择密钥</string>
+    <string name="please_select_at_least_one_public_key">加密时请选择至少一个公钥</string>
+
+    <!-- Home actions -->
+    <string name="create_key">创建密钥</string>
+    <string name="text_file">文本文件</string>
+    <string name="create_new_key">创建新密钥</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">选择用于加密的公钥：</string>
+    <string name="please_select_key">请选择一个密钥</string>
+    <string name="please_select_file">请选择一个文件</string>
+    <string name="key_not_found">未找到密钥</string>
+    <string name="encrypt_and_save">加密并保存</string>
+    <string name="file_selected">已选择文件</string>
+    <string name="encrypted_file_saved">已保存加密文件（.gpg）</string>
+    <string name="encryption_file_selected">已选择用于加密的文件</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">选择用于解密的私钥：</string>
+    <string name="please_enter_passphrase">请输入口令</string>
+    <string name="please_choose_gpg_file">请选择 .gpg 文件</string>
+    <string name="decrypted_and_saved">已解密并保存</string>
+    <string name="decrypt_and_save">解密并保存</string>
+    <string name="encrypted_file_selected">已选择加密文件</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">导入密钥（.asc）：</string>
+    <string name="public_key_selected">已选择公钥</string>
+    <string name="secret_key_selected">已选择私钥</string>
+    <string name="both_keys_detected">检测到公钥和私钥</string>
+    <string name="suggested_name">建议名称：%1$s</string>
+    <string name="not_a_valid_public_key">所选文件不是有效的公钥</string>
+    <string name="import_success">导入成功</string>
+    <string name="import_failed">导入失败</string>
+    <string name="public_key_missing_for_secret">已找到私钥，但在同一文件中未找到公钥</string>
+    <string name="save_to_table">保存到列表</string>
+    <string name="verifying_passphrase">正在验证口令…</string>
+    <string name="passphrase_incorrect">口令错误或无法解锁密钥</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">请输入名称和密码</string>
+    <string name="key_created_and_saved">密钥已创建并保存</string>
+    <string name="db_save_failed">保存到数据库失败</string>
+    <string name="min_password_length">密码至少需要 100 个字符</string>
+    <string name="generated_password_message">已生成强密码</string>
+    <string name="show">显示</string>
+    <string name="hide">隐藏</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">选择要导出公钥的密钥：</string>
+    <string name="no_keys">没有密钥。</string>
+    <string name="export_success_asc">已导出为 ASC</string>
+    <string name="export_choice_title">导出类型</string>
+    <string name="export_choice_message">要为“%1$s”导出什么？</string>
+    <string name="export_public_only">仅公钥</string>
+    <string name="export_both_keys">公钥 + 私钥</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">选择要删除的密钥：</string>
+    <string name="confirm_delete_title">确认删除</string>
+    <string name="confirm_delete_message">删除名为“%1$s”的密钥？此操作无法撤销。</string>
+    <string name="confirm_delete_multiple_message">删除 %1$d 个密钥？此操作无法撤销。</string>
+    <string name="delete_success">密钥已删除</string>
+    <string name="delete_failed">删除失败</string>
+    <string name="delete_selected">删除所选（%1$d）</string>
+    <string name="delete_database">删除数据库</string>
+    <string name="confirm_delete_db_title">删除数据库？</string>
+    <string name="confirm_delete_db_message">将删除所有密钥记录。此操作无法撤销。</string>
+    <string name="db_deleted_success">数据库已删除</string>
+    <string name="db_deleted_failed">无法删除数据库</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">读取文件失败：%1$s</string>
+    <string name="save_failed_with_reason">保存失败：%1$s</string>
+    <string name="encrypt_failed_with_reason">加密失败：%1$s</string>
+    <string name="decrypt_failed_with_reason">解密失败：%1$s</string>
+    <string name="error_with_reason">错误：%1$s</string>
+    <string name="export_failed_with_reason">导出失败：%1$s</string>
+    <string name="not_a_valid_encrypted_file">所选文件不是有效的加密文件</string>
+    <string name="key_incorrect">所选密钥不适用于此文件</string>
+    <string name="no_matching_secret_key">未找到匹配的私钥</string>
+    <string name="passphrase_required_auto_decrypt">已找到匹配的私钥，但需要口令</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">取消</string>
+    <string name="operation_cancelled">操作已取消</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">语言设置</string>
+    <string name="use_toggles_below">请使用下方语言选项</string>
+</resources>

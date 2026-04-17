@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">Şifrele - Şifreyi Çöz</string>
+    <string name="about_label">Hakkında</string>
+    <string name="about_title">GPG Gabar Programı Hakkında</string>
+    <string name="about_text">Bu program, Kürt özgürlük gerillaları ile Türk devleti arasındaki savaşın kahramanlarından biri olan, Zap/ın Rojava tarafındaki Şehid Delil Eyaleti Komutanlığı üyesi ve Hêzên Taybet\'in fedal komutanı Şehid Gabar Botan - Abdurrahim Erzen’in anısını yaşatmak için geliştirilmiştir.&#10;&#10;GPG Gabar programı; PGP (Pretty Good Privacy) temeli üzerine hazırlanmış olup ANDROİD telefon ve tabletlerde kolay ve güvenli bir şekilde çalışması için tasarlanmıştır. Programın temel amacı, kullanıcıların dosya ve yazılarını güvenli biçimde şifreleyip çözebilmesidir. Tüm özellikler, yüksek güven ve performans sağlamak için kapsamlı şekilde test edilmiştir.&#10;&#10;Üst düzey güvenlik için anahtar kullanıcı parolası çok güçlü olmalı ve en az 100 karakterden oluşmalıdır. Bu şartı karşılamayan parolalar program tarafından kabul edilmez.&#10;&#10;Bu programın, güvenli iletişimin geliştirilmesinde ve șifreli verilerin yönetiminde size yardımcı olmasını umuyoruz.&#10;&#10;GPG Gabar programı, Cybergah Grubu tarafından hazırlanmıştır.&#10;&#10;Tüm kullanıcılara başarılar dileriz…</string>
+    <string name="no_text_to_encrypt">Şifrelenecek metin yok</string>
+    <string name="language_settings">Dil ayarları</string>
+    <string name="use_toggles_below">Lütfen aşağıdaki dil seçeneklerini kullanın</string>
+
+    <!-- Help -->
+    <string name="help">Yardım</string>
+    <string name="help_home_title">Hızlı Başlangıç</string>
+    <string name="help_home_body">Şifrele, Şifreyi çöz veya bir metin dosyasının içeriğini şifrele.\nÖnce bir anahtar oluştur ya da içe aktar.\nGenel anahtarını paylaşmak için Dışa Aktar\u2019ı kullan.</string>
+    <string name="help_create_key_title">Anahtar Oluşturma</string>
+    <string name="help_create_key_body">1) Bir ad gir.\n2) Parola en az 100 karakter olmalı.\n3) Anahtarı oluştur ve parolayı güvenle sakla.\n\nNot: Parolayı kimseyle paylaşma.</string>
+    <string name="help_import_title">Anahtar İçe Aktarma</string>
+    <string name="help_import_body">1) Bir veya daha fazla .asc anahtar dosyası seç.\n2) Uygulama Genel ve Gizli anahtarları otomatik algılar.\n3) İstenirse parolayı gir.\n4) Anahtar otomatik olarak listeye eklenir.</string>
+    <string name="help_export_title">Anahtar Dışa Aktarma</string>
+    <string name="help_export_body">1) Dışa aktarılacak anahtarları seç.\n2) Yalnızca Genel veya Genel + Gizli seç.\n3) Kaydetme konumunu seç.\n4) Gerekirse parolayı gir.\n5) Dosyalar name-public.asc ve name-secret.asc olarak kaydedilir.</string>
+    <string name="help_encrypt_file_title">Dosya Şifreleme (.gpg)</string>
+    <string name="help_encrypt_file_body">1) Şifrelenecek dosyayı seç.\n2) Bir veya daha fazla Genel anahtar seç.\n3) Kaydetme konumunu seç.\n4) Çıktı .gpg olarak kaydedilir.\n\nÇözmek için karşılık gelen Gizli anahtar ve parola gerekir.</string>
+    <string name="help_decrypt_file_title">Dosya Şifre Çözme</string>
+    <string name="help_decrypt_file_body">1) .gpg veya .pgp uzantılı bir dosya seç.\n2) Uygulama, varsa özel anahtarı arar ve tanır; şifre çözme sürecini yönlendirir.\n3) Anahtar uygulamada kayıtlıysa parola istemez.\n4) Çözülen dosyanın kaydedileceği yeri seç.</string>
+    <string name="help_text_title">Metin Şifreleme / Çözme</string>
+    <string name="help_text_body">1) Metin yaz veya bir metin dosyası aç.\n2) Anahtar(lar) seç.\n3) Metni şifrele veya çöz.\n4) İstenirse parolayı gir.\n\nKaydet, metni .txt olarak kaydeder.</string>
+    <string name="help_delete_title">Anahtar Silme</string>
+    <string name="help_delete_body">1) Silmek istediğin anahtarları seç.\n2) Silmeyi onayla.\n\nNot: Bu işlem geri alınamaz.</string>
+
+    <!-- Common labels -->
+    <string name="name">Ad</string>
+    <string name="type">Tür</string>
+    <string name="password">Parola</string>
+    <string name="passphrase">Parola</string>
+    <string name="enter_passphrase">Parolayı girin</string>
+    <string name="save">Kaydet</string>
+    <string name="export">Dışa aktar</string>
+    <string name="delete">Sil</string>
+    <string name="encrypt">Şifrele</string>
+    <string name="decrypt">Şifreyi çöz</string>
+    <string name="import_">İçe aktar</string>
+    <string name="public_">Genel</string>
+    <string name="secret">Gizli</string>
+    <string name="choose_file">Dosya seç</string>
+    <string name="choose_gpg_file">.gpg dosyası seç</string>
+    <string name="select_keys_label">Anahtar(lar) Seç</string>
+    <string name="please_select_at_least_one_public_key">Şifreleme için en az bir genel anahtar seçin</string>
+
+    <!-- Home actions -->
+    <string name="create_key">Anahtar oluştur</string>
+    <!-- New explicit button labels per screen -->
+    <string name="create_new_key">Yeni anahtar oluştur</string>
+    <string name="text_file">Metin dosyası</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">Metni Şifrele</string>
+    <string name="decrypt_text">Şifreyi Çöz</string>
+    <string name="content_label">İçerik</string>
+    <string name="encrypted_success">Şifrelendi</string>
+    <string name="decrypted_success">Şifre çözüldü</string>
+    <string name="text_file_title">Metin Dosyası</string>
+    <string name="text_file_opened">Metin dosyası açıldı</string>
+    <string name="file_saved">Dosya kaydedildi</string>
+    <string name="save_textfile_action">Metin içeriğini kaydet</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">Şifreleme için bir genel anahtar seçin:</string>
+    <string name="please_select_key">Lütfen bir anahtar seçin</string>
+    <string name="please_select_file">Lütfen bir dosya seçin</string>
+    <string name="key_not_found">Anahtar bulunamadı</string>
+    <string name="encrypt_and_save">Şifrele ve kaydet</string>
+    <string name="file_selected">Dosya seçildi</string>
+    <string name="encrypted_file_saved">Şifreli dosya (.gpg) kaydedildi</string>
+    <string name="encryption_file_selected">Şifrelenecek dosya seçildi</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">Şifre çözmek için şifrelenmiş bir dosya seçin:</string>
+    <string name="please_enter_passphrase">Lütfen parola ifadesini girin</string>
+    <string name="please_choose_gpg_file">Lütfen bir .gpg dosyası seçin</string>
+    <string name="decrypted_and_saved">Şifre çözüldü ve dosya kaydedildi</string>
+    <string name="decrypt_and_save">Şifreyi çöz ve kaydet</string>
+    <string name="encrypted_file_selected">Şifreli dosya seçildi</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">Anahtar içe aktar (.asc):</string>
+    <string name="public_key_selected">Genel anahtar seçildi</string>
+    <string name="secret_key_selected">Gizli anahtar seçildi</string>
+    <string name="both_keys_detected">Genel ve gizli anahtar algılandı</string>
+    <string name="suggested_name">Önerilen ad: %1$s</string>
+    <string name="not_a_valid_public_key">Seçilen dosya geçerli bir genel anahtar değil</string>
+    <string name="import_success">İçe aktarma başarılı</string>
+    <string name="import_failed">İçe aktarma başarısız</string>
+    <string name="public_key_missing_for_secret">Gizli anahtar bulundu ancak aynı dosyada genel anahtar bulunamadı</string>
+    <string name="save_to_table">Tabloya kaydet</string>
+    <string name="verifying_passphrase">Parola doğrulanıyor…</string>
+    <string name="passphrase_incorrect">Parola yanlış veya anahtar çözülemedi</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">Lütfen ad ve parolayı girin</string>
+    <string name="key_created_and_saved">Anahtar oluşturuldu ve kaydedildi</string>
+    <string name="db_save_failed">Veritabanına kaydetme başarısız</string>
+    <string name="min_password_length">Parola en az 100 karakter olmalı</string>
+    <string name="generated_password_message">Güçlü bir parola oluşturuldu</string>
+    <string name="show">Göster</string>
+    <string name="hide">Gizle</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">Genel anahtarı dışa aktarmak için bir anahtar seçin:</string>
+    <string name="no_keys">Anahtar yok.</string>
+    <string name="export_success_asc">Anahtarlar ASC biçiminde dışa aktarıldı</string>
+    <string name="export_choice_title">Dışa aktarma türü</string>
+    <string name="export_choice_message">"%1$s" için neyi dışa aktarmak istersiniz?</string>
+    <string name="export_public_only">Sadece genel anahtar</string>
+    <string name="export_both_keys">Genel + gizli anahtar</string>
+    <string name="key_name_exists">Aynı isimde bir anahtar var</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">Silmek için bir anahtar seçin:</string>
+    <string name="confirm_delete_title">Silme onayı</string>
+    <string name="confirm_delete_message">"%1$s" adlı anahtar silinsin mi? Bu işlem geri alınamaz.</string>
+    <string name="confirm_delete_multiple_message">%1$d anahtar silinsin mi? Bu işlem geri alınamaz.</string>
+    <string name="delete_success">Anahtar silindi</string>
+    <string name="delete_failed">Silme başarısız</string>
+    <string name="delete_selected">Seçili olanları sil (%1$d)</string>
+    <string name="delete_database">Veritabanını sil</string>
+    <string name="confirm_delete_db_title">Veritabanını silinsin mi?</string>
+    <string name="confirm_delete_db_message">Tüm anahtar kayıtları silinecek. Bu işlem geri alınamaz.</string>
+    <string name="db_deleted_success">Veritabanı silindi</string>
+    <string name="db_deleted_failed">Veritabanı silinemedi</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">Dosya okunamadı: %1$s</string>
+    <string name="save_failed_with_reason">Kaydetme başarısız: %1$s</string>
+    <string name="encrypt_failed_with_reason">Şifreleme başarısız: %1$s</string>
+    <string name="decrypt_failed_with_reason">Şifre çözme başarısız: %1$s</string>
+    <string name="error_with_reason">Hata: %1$s</string>
+    <string name="export_failed_with_reason">Dışa aktarma başarısız: %1$s</string>
+    <string name="not_a_valid_encrypted_file">Seçilen dosya geçerli bir şifreli dosya değil</string>
+    <string name="key_incorrect">Seçtiğiniz anahtar bu dosya için geçerli değil</string>
+    <string name="no_matching_secret_key">Uygun bir gizli anahtar bulunamadı</string>
+    <string name="passphrase_required_auto_decrypt">Bu dosya için uygun gizli anahtar bulundu ancak parola gerekiyor</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">İptal</string>
+    <string name="operation_cancelled">İşlem iptal edildi</string>
+</resources>

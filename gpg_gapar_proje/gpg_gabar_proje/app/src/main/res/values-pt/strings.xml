@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">Criptografar - Descriptografar</string>
+
+    <!-- About -->
+    <string name="about_label">Sobre</string>
+    <string name="about_title">Sobre o GPG Gabar</string>
+    <string name="about_text">Este programa foi desenvolvido para manter viva a memória de um dos heróis da guerra entre as guerrilhas curdas pela liberdade e o Estado turco: Şehid Gabar Botan - Abdurrahim Erzen, membro do comando do Estado Şehid Delil no lado de Rojava de Zap e comandante fedai de Hêzên Taybet.\n\nO programa GPG Gabar é baseado em PGP (Pretty Good Privacy) e foi projetado para funcionar de forma fácil e segura em telefones e tablets ANDROID. O objetivo principal do programa é que os usuários possam criptografar e descriptografar seus arquivos e textos com segurança. Todos os recursos foram testados de forma abrangente para garantir alta confiança e desempenho.\n\nPara um alto nível de segurança, a senha do usuário da chave deve ser muito forte e conter pelo menos 100 caracteres. Senhas que não atendem a esse requisito não são aceitas pelo aplicativo.\n\nEsperamos que este programa ajude você a desenvolver uma comunicação segura e a gerenciar dados criptografados.\n\nO programa GPG Gabar foi preparado pelo Grupo Cybergah.\n\nDesejamos a todos os usuários muito sucesso…</string>
+
+    <!-- Help -->
+    <string name="help">Ajuda</string>
+    <string name="help_home_title">Início rápido</string>
+    <string name="help_home_body">Use Criptografar, Descriptografar ou criptografar o conteúdo de um arquivo de texto.\nPrimeiro crie ou importe uma chave.\nUse Exportar para compartilhar sua chave pública.</string>
+    <string name="help_create_key_title">Criar uma chave</string>
+    <string name="help_create_key_body">1) Digite um nome.\n2) Defina uma senha com pelo menos 100 caracteres.\n3) Crie a chave e mantenha a senha em segurança.\n\nNão compartilhe a senha.</string>
+    <string name="help_import_title">Importar chaves</string>
+    <string name="help_import_body">1) Selecione um ou mais arquivos de chave .asc.\n2) O app detecta chaves públicas e secretas.\n3) Digite a senha se for solicitada.\n4) A chave é adicionada automaticamente à lista.</string>
+    <string name="help_export_title">Exportar chaves</string>
+    <string name="help_export_body">1) Selecione as chaves para exportar.\n2) Escolha Somente pública ou Pública + Secreta.\n3) Escolha o destino.\n4) Digite a frase secreta se for solicitada.\n5) Os arquivos são salvos como name-public.asc e name-secret.asc.</string>
+    <string name="help_encrypt_file_title">Criptografar um arquivo (.gpg)</string>
+    <string name="help_encrypt_file_body">1) Selecione o arquivo que deseja criptografar.\n2) Selecione uma ou mais chaves públicas.\n3) Escolha onde salvar o resultado criptografado.\n4) A saída é salva como um arquivo .gpg.\n\nPara descriptografar, você precisa da chave secreta correspondente e da frase secreta.</string>
+    <string name="help_decrypt_file_title">Descriptografar um arquivo</string>
+    <string name="help_decrypt_file_body">1) Selecione um arquivo .gpg ou .pgp.\n2) O app procura e detecta a chave privada (se disponível) e guia o processo de descriptografia.\n3) Se a chave estiver salva no app, ele não pedirá a senha.\n4) Escolha onde salvar o arquivo descriptografado.</string>
+    <string name="help_text_title">Criptografar / Descriptografar texto</string>
+    <string name="help_text_body">1) Digite texto ou abra um arquivo de texto.\n2) Selecione chaves.\n3) Criptografe ou descriptografe o texto.\n4) Digite a senha se for solicitada.\n\nSalvar guarda o texto atual como arquivo .txt.</string>
+    <string name="help_delete_title">Excluir chaves</string>
+    <string name="help_delete_body">1) Selecione as chaves que você deseja excluir.\n2) Confirme a exclusão.\n\nObservação: não é possível desfazer.</string>
+
+    <!-- Common labels -->
+    <string name="name">Nome</string>
+    <string name="type">Tipo</string>
+    <string name="password">Senha</string>
+    <string name="passphrase">Frase-senha</string>
+    <string name="enter_passphrase">Digite a frase-senha</string>
+    <string name="save">Salvar</string>
+    <string name="export">Exportar</string>
+    <string name="delete">Excluir</string>
+    <string name="encrypt">Criptografar</string>
+    <string name="decrypt">Descriptografar</string>
+    <string name="import_">Importar</string>
+    <string name="public_">Pública</string>
+    <string name="secret">Secreta</string>
+    <string name="choose_file">Escolher arquivo</string>
+    <string name="choose_gpg_file">Escolher arquivo .gpg</string>
+    <string name="key_name_exists">Já existe uma chave com o mesmo nome</string>
+    <string name="no_text_to_encrypt">Não há texto para criptografar</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">Criptografar texto</string>
+    <string name="decrypt_text">Descriptografar texto</string>
+    <string name="content_label">Conteúdo</string>
+    <string name="encrypted_success">Criptografado</string>
+    <string name="decrypted_success">Descriptografado</string>
+    <string name="text_file_title">Arquivo de texto</string>
+    <string name="text_file_opened">Arquivo de texto aberto</string>
+    <string name="file_saved">Arquivo salvo</string>
+    <string name="save_textfile_action">Salvar conteúdo do texto</string>
+    <string name="select_keys_label">Selecionar chave(s)</string>
+    <string name="please_select_at_least_one_public_key">Selecione pelo menos uma chave pública para criptografar</string>
+
+    <!-- Home actions -->
+    <string name="create_key">Criar chave</string>
+    <string name="text_file">Arquivo de texto</string>
+    <string name="create_new_key">Criar nova chave</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">Selecione uma chave pública para criptografar:</string>
+    <string name="please_select_key">Por favor, selecione uma chave</string>
+    <string name="please_select_file">Por favor, selecione um arquivo</string>
+    <string name="key_not_found">Chave não encontrada</string>
+    <string name="encrypt_and_save">Criptografar e salvar</string>
+    <string name="file_selected">Arquivo selecionado</string>
+    <string name="encrypted_file_saved">Arquivo criptografado (.gpg) salvo</string>
+    <string name="encryption_file_selected">Arquivo selecionado para criptografia</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">Selecione uma chave privada para descriptografar:</string>
+    <string name="please_enter_passphrase">Por favor, digite a frase-senha</string>
+    <string name="please_choose_gpg_file">Por favor, escolha um arquivo .gpg</string>
+    <string name="decrypted_and_saved">Descriptografado e salvo</string>
+    <string name="decrypt_and_save">Descriptografar e salvar</string>
+    <string name="encrypted_file_selected">Arquivo criptografado selecionado</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">Importar chave (.asc):</string>
+    <string name="public_key_selected">Chave pública selecionada</string>
+    <string name="secret_key_selected">Chave secreta selecionada</string>
+    <string name="both_keys_detected">Chaves pública e secreta detectadas</string>
+    <string name="suggested_name">Nome sugerido: %1$s</string>
+    <string name="not_a_valid_public_key">O arquivo selecionado não é uma chave pública válida</string>
+    <string name="import_success">Importação concluída</string>
+    <string name="import_failed">Falha na importação</string>
+    <string name="public_key_missing_for_secret">Chave secreta encontrada, mas nenhuma chave pública foi encontrada no mesmo arquivo</string>
+    <string name="save_to_table">Salvar na lista</string>
+    <string name="verifying_passphrase">Verificando frase-senha…</string>
+    <string name="passphrase_incorrect">Frase-senha incorreta ou não foi possível desbloquear a chave</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">Por favor, digite um nome e uma senha</string>
+    <string name="key_created_and_saved">Chave criada e salva</string>
+    <string name="db_save_failed">Falha ao salvar no banco de dados</string>
+    <string name="min_password_length">A senha deve ter pelo menos 100 caracteres</string>
+    <string name="generated_password_message">Uma senha forte foi gerada</string>
+    <string name="show">Mostrar</string>
+    <string name="hide">Ocultar</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">Selecione uma chave para exportar a chave pública:</string>
+    <string name="no_keys">Nenhuma chave.</string>
+    <string name="export_success_asc">Chaves exportadas como ASC</string>
+    <string name="export_choice_title">Tipo de exportação</string>
+    <string name="export_choice_message">O que deseja exportar para \"%1$s\"?</string>
+    <string name="export_public_only">Somente chave pública</string>
+    <string name="export_both_keys">Chave pública + chave secreta</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">Selecione uma chave para excluir:</string>
+    <string name="confirm_delete_title">Confirmar exclusão</string>
+    <string name="confirm_delete_message">Excluir a chave \"%1$s\"? Isso não pode ser desfeito.</string>
+    <string name="confirm_delete_multiple_message">Excluir %1$d chaves? Isso não pode ser desfeito.</string>
+    <string name="delete_success">Chave excluída</string>
+    <string name="delete_failed">Falha ao excluir</string>
+    <string name="delete_selected">Excluir selecionadas (%1$d)</string>
+    <string name="delete_database">Excluir banco de dados</string>
+    <string name="confirm_delete_db_title">Excluir o banco de dados?</string>
+    <string name="confirm_delete_db_message">Todos os registros de chaves serão excluídos. Isso não pode ser desfeito.</string>
+    <string name="db_deleted_success">Banco de dados excluído</string>
+    <string name="db_deleted_failed">Não foi possível excluir o banco de dados</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">Falha ao ler o arquivo: %1$s</string>
+    <string name="save_failed_with_reason">Falha ao salvar: %1$s</string>
+    <string name="encrypt_failed_with_reason">Falha na criptografia: %1$s</string>
+    <string name="decrypt_failed_with_reason">Falha na descriptografia: %1$s</string>
+    <string name="error_with_reason">Erro: %1$s</string>
+    <string name="export_failed_with_reason">Falha na exportação: %1$s</string>
+    <string name="not_a_valid_encrypted_file">O arquivo selecionado não é um arquivo criptografado válido</string>
+    <string name="key_incorrect">A chave selecionada não é válida para este arquivo</string>
+    <string name="no_matching_secret_key">Nenhuma chave secreta correspondente encontrada</string>
+    <string name="passphrase_required_auto_decrypt">Uma chave secreta correspondente foi encontrada para este arquivo, mas é necessária uma frase-senha</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">Cancelar</string>
+    <string name="operation_cancelled">Operação cancelada</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">Configurações de idioma</string>
+    <string name="use_toggles_below">Use as opções de idioma abaixo</string>
+</resources>

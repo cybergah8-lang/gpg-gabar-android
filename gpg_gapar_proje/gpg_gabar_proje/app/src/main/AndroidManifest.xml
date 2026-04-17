@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+
+    <application
+        android:allowBackup="false"
+        android:usesCleartextTraffic="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:localeConfig="@xml/locales_config"
+        android:theme="@style/Theme.Azadi">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.kardoxi.gpg_gabar"
+            android:allowTaskReparenting="true"
+            android:grantUriPermissions="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Azadi">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content" android:mimeType="application/pgp-encrypted" />
+                <data android:scheme="file" android:mimeType="application/pgp-encrypted" />
+                <data android:scheme="content" android:mimeType="application/octet-stream" android:pathPattern=".*\\.gpg" />
+                <data android:scheme="file" android:mimeType="application/octet-stream" android:pathPattern=".*\\.gpg" />
+                <data android:scheme="content" android:mimeType="application/octet-stream" android:pathPattern=".*\\.pgp" />
+                <data android:scheme="file" android:mimeType="application/octet-stream" android:pathPattern=".*\\.pgp" />
+                <data android:scheme="content" android:mimeType="application/x-gnupg" />
+                <data android:scheme="file" android:mimeType="application/x-gnupg" />
+            </intent-filter>
+        </activity>
+        
+        <service
+            android:name=".CryptoFgService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+        
+        <!-- Unified Share target: shows as a localized "Encrypt - Decrypt" under app name -->
+        <activity
+            android:name=".ShareActivity"
+            android:exported="true"
+            android:label="@string/share_activity_label"
+            android:grantUriPermissions="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Azadi">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- Accept any file and text shares -->
+                <data android:mimeType="*/*" />
+                <data android:mimeType="text/*" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

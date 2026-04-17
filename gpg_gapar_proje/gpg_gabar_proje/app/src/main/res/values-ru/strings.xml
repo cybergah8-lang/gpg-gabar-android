@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">Шифровать - Расшифровать</string>
+
+    <!-- About -->
+    <string name="about_label">О программе</string>
+    <string name="about_title">О GPG Gabar</string>
+    <string name="about_text">Эта программа была разработана, чтобы сохранить память об одном из героев войны между курдскими партизанами свободы и турецким государством: Шехиде Габар Ботан - Абдуррахиме Эрзене, члене командования «Шехид Делил» на стороне Рожавы в Запе и фидаи-командире Hêzên Taybet.\n\nПрограмма GPG Gabar основана на PGP (Pretty Good Privacy) и создана для лёгкой и безопасной работы на телефонах и планшетах ANDROID. Основная цель программы — чтобы пользователи могли безопасно шифровать и расшифровывать свои файлы и тексты. Все функции были всесторонне протестированы, чтобы обеспечить высокий уровень доверия и производительности.\n\nДля высокого уровня безопасности пароль пользователя ключа должен быть очень надёжным и состоять как минимум из 100 символов. Пароли, не соответствующие этому требованию, приложением не принимаются.\n\nМы надеемся, что эта программа поможет вам развивать безопасную связь и управлять зашифрованными данными.\n\nПрограмма GPG Gabar подготовлена группой Cybergah.\n\nЖелаем всем пользователям успехов…</string>
+
+    <!-- Help -->
+    <string name="help">Справка</string>
+    <string name="help_home_title">Быстрый старт</string>
+    <string name="help_home_body">Используйте Шифровать, Расшифровать или шифрование содержимого текстового файла.\nСначала создайте или импортируйте ключ.\nИспользуйте Экспорт, чтобы поделиться вашим публичным ключом.</string>
+    <string name="help_create_key_title">Создание ключа</string>
+    <string name="help_create_key_body">1) Введите имя.\n2) Задайте пароль длиной не менее 100 символов.\n3) Создайте ключ и храните пароль в безопасности.\n\nНе делитесь паролем.</string>
+    <string name="help_import_title">Импорт ключей</string>
+    <string name="help_import_body">1) Выберите один или несколько файлов ключей .asc.\n2) Приложение распознает публичные и секретные ключи.\n3) Введите пароль, если потребуется.\n4) Ключ автоматически добавляется в список.</string>
+    <string name="help_export_title">Экспорт ключей</string>
+    <string name="help_export_body">1) Выберите ключи для экспорта.\n2) Выберите Только публичный или Публичный + Секретный.\n3) Выберите место сохранения.\n4) Введите парольную фразу, если будет запрошена.\n5) Файлы сохраняются как name-public.asc и name-secret.asc.</string>
+    <string name="help_encrypt_file_title">Шифрование файла (.gpg)</string>
+    <string name="help_encrypt_file_body">1) Выберите файл для шифрования.\n2) Выберите один или несколько публичных ключей.\n3) Выберите место сохранения зашифрованного результата.\n4) Результат сохраняется как файл .gpg.\n\nДля расшифровки нужен соответствующий секретный ключ и парольная фраза.</string>
+    <string name="help_decrypt_file_title">Расшифровка файла</string>
+    <string name="help_decrypt_file_body">1) Выберите файл .gpg или .pgp.\n2) Приложение ищет и распознаёт приватный ключ (если доступен) и ведёт процесс расшифровки.\n3) Если ключ сохранён в приложении, пароль не потребуется.\n4) Выберите место сохранения расшифрованного файла.</string>
+    <string name="help_text_title">Шифрование / Расшифровка текста</string>
+    <string name="help_text_body">1) Введите текст или откройте текстовый файл.\n2) Выберите ключи.\n3) Зашифруйте или расшифруйте текст.\n4) Введите пароль, если потребуется.\n\nСохранить сохраняет текущий текст в файл .txt.</string>
+    <string name="help_delete_title">Удаление ключей</string>
+    <string name="help_delete_body">1) Выберите ключи, которые хотите удалить.\n2) Подтвердите удаление.\n\nПримечание: отменить нельзя.</string>
+
+    <!-- Common labels -->
+    <string name="name">Имя</string>
+    <string name="type">Тип</string>
+    <string name="password">Пароль</string>
+    <string name="passphrase">Парольная фраза</string>
+    <string name="enter_passphrase">Введите парольную фразу</string>
+    <string name="save">Сохранить</string>
+    <string name="export">Экспорт</string>
+    <string name="delete">Удалить</string>
+    <string name="encrypt">Шифровать</string>
+    <string name="decrypt">Расшифровать</string>
+    <string name="import_">Импорт</string>
+    <string name="public_">Публичный</string>
+    <string name="secret">Секретный</string>
+    <string name="choose_file">Выбрать файл</string>
+    <string name="choose_gpg_file">Выбрать файл .gpg</string>
+    <string name="key_name_exists">Ключ с таким именем уже существует</string>
+    <string name="no_text_to_encrypt">Нет текста для шифрования</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">Зашифровать текст</string>
+    <string name="decrypt_text">Расшифровать текст</string>
+    <string name="content_label">Содержимое</string>
+    <string name="encrypted_success">Зашифровано</string>
+    <string name="decrypted_success">Расшифровано</string>
+    <string name="text_file_title">Текстовый файл</string>
+    <string name="text_file_opened">Текстовый файл открыт</string>
+    <string name="file_saved">Файл сохранён</string>
+    <string name="save_textfile_action">Сохранить текст</string>
+    <string name="select_keys_label">Выберите ключ(и)</string>
+    <string name="please_select_at_least_one_public_key">Для шифрования выберите хотя бы один публичный ключ</string>
+
+    <!-- Home actions -->
+    <string name="create_key">Создать ключ</string>
+    <string name="text_file">Текстовый файл</string>
+    <string name="create_new_key">Создать новый ключ</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">Выберите публичный ключ для шифрования:</string>
+    <string name="please_select_key">Пожалуйста, выберите ключ</string>
+    <string name="please_select_file">Пожалуйста, выберите файл</string>
+    <string name="key_not_found">Ключ не найден</string>
+    <string name="encrypt_and_save">Зашифровать и сохранить</string>
+    <string name="file_selected">Файл выбран</string>
+    <string name="encrypted_file_saved">Зашифрованный файл (.gpg) сохранён</string>
+    <string name="encryption_file_selected">Файл выбран для шифрования</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">Выберите приватный ключ для расшифровки:</string>
+    <string name="please_enter_passphrase">Пожалуйста, введите парольную фразу</string>
+    <string name="please_choose_gpg_file">Пожалуйста, выберите файл .gpg</string>
+    <string name="decrypted_and_saved">Расшифровано и сохранено</string>
+    <string name="decrypt_and_save">Расшифровать и сохранить</string>
+    <string name="encrypted_file_selected">Зашифрованный файл выбран</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">Импортировать ключ (.asc):</string>
+    <string name="public_key_selected">Публичный ключ выбран</string>
+    <string name="secret_key_selected">Секретный ключ выбран</string>
+    <string name="both_keys_detected">Обнаружены публичный и секретный ключи</string>
+    <string name="suggested_name">Рекомендуемое имя: %1$s</string>
+    <string name="not_a_valid_public_key">Выбранный файл не является действительным публичным ключом</string>
+    <string name="import_success">Импорт выполнен успешно</string>
+    <string name="import_failed">Импорт не выполнен</string>
+    <string name="public_key_missing_for_secret">Секретный ключ найден, но публичный ключ в этом же файле не найден</string>
+    <string name="save_to_table">Сохранить в список</string>
+    <string name="verifying_passphrase">Проверка парольной фразы…</string>
+    <string name="passphrase_incorrect">Неверная парольная фраза или ключ не удалось разблокировать</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">Пожалуйста, введите имя и пароль</string>
+    <string name="key_created_and_saved">Ключ создан и сохранён</string>
+    <string name="db_save_failed">Не удалось сохранить в базе данных</string>
+    <string name="min_password_length">Пароль должен быть не короче 100 символов</string>
+    <string name="generated_password_message">Сгенерирован надёжный пароль</string>
+    <string name="show">Показать</string>
+    <string name="hide">Скрыть</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">Выберите ключ для экспорта публичного ключа:</string>
+    <string name="no_keys">Ключей нет.</string>
+    <string name="export_success_asc">Ключи экспортированы в формате ASC</string>
+    <string name="export_choice_title">Тип экспорта</string>
+    <string name="export_choice_message">Что вы хотите экспортировать для "%1$s"?</string>
+    <string name="export_public_only">Только публичный ключ</string>
+    <string name="export_both_keys">Публичный + секретный ключ</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">Выберите ключ для удаления:</string>
+    <string name="confirm_delete_title">Подтвердить удаление</string>
+    <string name="confirm_delete_message">Удалить ключ "%1$s"? Это действие нельзя отменить.</string>
+    <string name="confirm_delete_multiple_message">Удалить %1$d ключей? Это действие нельзя отменить.</string>
+    <string name="delete_success">Ключ удалён</string>
+    <string name="delete_failed">Не удалось удалить</string>
+    <string name="delete_selected">Удалить выбранные (%1$d)</string>
+    <string name="delete_database">Удалить базу данных</string>
+    <string name="confirm_delete_db_title">Удалить базу данных?</string>
+    <string name="confirm_delete_db_message">Все записи ключей будут удалены. Это действие нельзя отменить.</string>
+    <string name="db_deleted_success">База данных удалена</string>
+    <string name="db_deleted_failed">Не удалось удалить базу данных</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">Не удалось прочитать файл: %1$s</string>
+    <string name="save_failed_with_reason">Не удалось сохранить: %1$s</string>
+    <string name="encrypt_failed_with_reason">Ошибка шифрования: %1$s</string>
+    <string name="decrypt_failed_with_reason">Ошибка расшифровки: %1$s</string>
+    <string name="error_with_reason">Ошибка: %1$s</string>
+    <string name="export_failed_with_reason">Ошибка экспорта: %1$s</string>
+    <string name="not_a_valid_encrypted_file">Выбранный файл не является действительным зашифрованным файлом</string>
+    <string name="key_incorrect">Выбранный ключ не подходит для этого файла</string>
+    <string name="no_matching_secret_key">Подходящий секретный ключ не найден</string>
+    <string name="passphrase_required_auto_decrypt">Для этого файла найден подходящий секретный ключ, но требуется парольная фраза</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">Отмена</string>
+    <string name="operation_cancelled">Операция отменена</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">Настройки языка</string>
+    <string name="use_toggles_below">Пожалуйста, используйте параметры языка ниже</string>
+</resources>

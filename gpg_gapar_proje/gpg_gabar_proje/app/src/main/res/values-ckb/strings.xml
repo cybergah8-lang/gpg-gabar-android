@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">شێفڕ بکە - شێفڕ بکەرەوە</string>
+
+    <!-- About -->
+    <string name="about_label">دەربارە</string>
+    <string name="about_title">دەربارەی بەرنامەی GPG Gabar</string>
+    <string name="about_text">ئەم بەرنامەیە بۆ زنده‌کردنەوەی یادەوەری یەکێک لە قەهرەمانانی جەنگی نێوان گەریلاکانی ئازادی‌خوازی کورد و دەوڵەتی تورک پێشخستووە: شەهید گابار بۆتان - عەبدولڕەحیم ئەرزەن، ئەندامی فەرماندەیەتی «ئێیالەتی شەهید دەلیل» لە لایەنی ڕۆژاوای زاپ و فەرماندەی فیداییی هێزێن تایبەت.\n\nبەرنامەی GPG Gabar لەسەر بنەمای PGP (Pretty Good Privacy) ئامادەکراوە و بۆ ئەوە دیزاین کراوە کە لەسەر مۆبایل و تابلێتەکانی ANDROID بە شێوەیەکی ئاسان و ئێمن کار بکات. ئامانجی سەرەکیی بەرنامەکە ئەوەیە کە بەکارهێنەر بتوانێت فایل و نووسینەکانی خۆی بە شێوەیەکی ئێمن شێفڕ بکات و بیکاتەوە. هەموو تایبەتمەندییەکان بە شێوەیەکی فراوان تاقیکراونەتەوە بۆ دڵنیایی و کاراییی بەرز.\n\nبۆ ئاستێکی بەرز لە ئێمنی، وشەی نهێنی بەکارهێنەری کلیل دەبێت زۆر بەهێز بێت و لە کەمترین 100 کاراکتەر پێک بێت. وشە نهێنییەکان کە ئەم مەرجە پێنەکەن، لەلایەن بەرنامەکەوە وەرناگیرێن.\n\nئێمە هیوادارین ئەم بەرنامەیە یارمەتیت بدات لە پەرەپێدانی پەیوەندیی ئێمن و بەڕێوەبردنی داتای شێفڕکراو.\n\nبەرنامەی GPG Gabar لەلایەن گروپی Cybergah ئامادەکراوە.\n\nبۆ هەموو بەکارهێنەران سەرکەوتن دەخوازین…</string>
+
+    <!-- Help -->
+    <string name="help">یارمەتی</string>
+    <string name="help_home_title">دەستپێکی خێرا</string>
+    <string name="help_home_body">شێفڕکردن، شێفڕکردنەوە یان شێفڕکردنی ناوەڕۆکی پەڕگەی دەق بەکاربهێنە.\nسەرەتا کلیل دروست بکە یان هاوردە بکە.\nبۆ ناردنی کلیلی گشتی دەرهێنان بەکاربهێنە.</string>
+    <string name="help_create_key_title">دروستکردنی کلیل</string>
+    <string name="help_create_key_body">1) ناو بنووسە.\n2) وشەی نهێنی دەبێت لانیکەم 100 کاراکتەر بێت.\n3) کلیل دروست بکە و وشەی نهێنی بە ئاسایش پارێزە.\n\nوشەی نهێنی بە کەسێک مەدە.</string>
+    <string name="help_import_title">هاوردەکردنی کلیلەکان</string>
+    <string name="help_import_body">1) پەڕگەکانی .asc هەڵبژێرە.\n2) بەرنامە کلیلە گشتی و نهێنی دەناسێتەوە.\n3) ئەگەر پێویست بوو، تێپەڕوشە بنووسە.\n4) کلیلەکە بە شێوەی خۆکار زیاد دەکرێت بۆ لیست.</string>
+    <string name="help_export_title">دەرهێنانی کلیلەکان</string>
+    <string name="help_export_body">1) کلیلەکان هەڵبژێرە بۆ دەرهێنان.\n2) تەنها گشتی یان گشتی + نهێنی هەڵبژێرە.\n3) شوێنی پاشەکەوتکردن هەڵبژێرە.\n4) ئەگەر داواکرا، پاسفریز بنووسە.\n5) پەڕگەکان وەک name-public.asc و name-secret.asc پاشەکەوت دەکرێن.</string>
+    <string name="help_encrypt_file_title">شێفڕکردنی پەڕگە (.gpg)</string>
+    <string name="help_encrypt_file_body">1) پەڕگەی شێفڕکردن هەڵبژێرە.\n2) یەک یان چەند کلیلی گشتی هەڵبژێرە.\n3) شوێنی پاشەکەوتکردن هەڵبژێرە.\n4) دەرئەنجام وەک پەڕگەی .gpg پاشەکەوت دەکرێت.\n\nبۆ شێفڕکردنەوە پێویستە کلیلی نهێنی و پاسفریز هەبێت.</string>
+    <string name="help_decrypt_file_title">شێفڕکردنەوەی پەڕگە</string>
+    <string name="help_decrypt_file_body">1) پەڕگەی .gpg یان .pgp هەڵبژێرە.\n2) بەرنامە دەگەڕێت بۆ کلیلی تایبەت و ئەگەر هەبوو دەیناسێتەوە و ڕێنمایی پرۆسەی شێفڕکردنەوە دەکات.\n3) ئەگەر کلیل لە ناو بەرنامەدا پاشەکەوت کراو بێت، داوای تێپەڕوشە ناکات.\n4) شوێنی پاشەکەوتکردنی پەڕگەی شێفڕکراوە هەڵبژێرە.</string>
+    <string name="help_text_title">شێفڕکردن / شێفڕکردنەوەی دەق</string>
+    <string name="help_text_body">1) دەق بنووسە یان پەڕگەی دەق بکەرەوە.\n2) کلیلەکان هەڵبژێرە.\n3) دەق شێفڕ بکە یان شێفڕ بکەرەوە.\n4) ئەگەر پێویست بوو تێپەڕوشە بنووسە.\n\nپاشەکەوت دەقی ئێستا وەک پەڕگەی .txt پاشەکەوت دەکات.</string>
+    <string name="help_delete_title">سڕینەوەی کلیلەکان</string>
+    <string name="help_delete_body">1) کلیلەکان هەڵبژێرە کە دەتەوێت بسڕیتەوە.\n2) سڕینەوە پشتڕاست بکە.\n\nتێبینی: ئەمە گەڕاندنەوەی نییە.</string>
+
+    <!-- Common labels -->
+    <string name="name">ناو</string>
+    <string name="type">جۆر</string>
+    <string name="password">وشەی نهێنی</string>
+    <string name="passphrase">پاسفریز</string>
+    <string name="enter_passphrase">پاسفریز بنووسە</string>
+    <string name="save">پاشەکەوت</string>
+    <string name="export">دەرهێنان</string>
+    <string name="delete">سڕینەوە</string>
+    <string name="encrypt">شێفڕکردن</string>
+    <string name="decrypt">شێفڕکردنەوە</string>
+    <string name="import_">هاوردەکردن</string>
+    <string name="public_">گشتی</string>
+    <string name="secret">نهێنی</string>
+    <string name="choose_file">پەڕگە هەڵبژێرە</string>
+    <string name="choose_gpg_file">پەڕگەی .gpg هەڵبژێرە</string>
+    <string name="key_name_exists">کلیلێک بە هەمان ناو هەیە</string>
+    <string name="no_text_to_encrypt">هیچ دەقێک نییە بۆ شێفڕکردن</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">دەق شێفڕ بکە</string>
+    <string name="decrypt_text">دەق شێفڕ بکەرەوە</string>
+    <string name="content_label">ناوەڕۆک</string>
+    <string name="encrypted_success">شێفڕکرا</string>
+    <string name="decrypted_success">شێفڕکرایەوە</string>
+    <string name="text_file_title">پەڕگەی دەق</string>
+    <string name="text_file_opened">پەڕگەی دەق کرایەوە</string>
+    <string name="file_saved">پەڕگە پاشەکەوتکرا</string>
+    <string name="save_textfile_action">ناوەڕۆکی دەق پاشەکەوت بکە</string>
+    <string name="select_keys_label">کلیل(ەکان) هەڵبژێرە</string>
+    <string name="please_select_at_least_one_public_key">بۆ شێفڕکردن، لانیکەم یەک کلیلی گشتی هەڵبژێرە</string>
+
+    <!-- Home actions -->
+    <string name="create_key">کلیل دروست بکە</string>
+    <string name="text_file">دەق</string>
+    <string name="create_new_key">کلیلی نوێ دروست بکە</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">کلیلی گشتی بۆ شێفڕکردن هەڵبژێرە:</string>
+    <string name="please_select_key">تکایە کلیلێک هەڵبژێرە</string>
+    <string name="please_select_file">تکایە پەڕگەیەک هەڵبژێرە</string>
+    <string name="key_not_found">کلیل نەدۆزرایەوە</string>
+    <string name="encrypt_and_save">شێفڕ بکە و پاشەکەوت بکە</string>
+    <string name="file_selected">پەڕگە هەڵبژێردرا</string>
+    <string name="encrypted_file_saved">پەڕگەی شێفڕکراو (.gpg) پاشەکەوتکرا</string>
+    <string name="encryption_file_selected">پەڕگە بۆ شێفڕکردن هەڵبژێردرا</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">کلیلی نهێنی بۆ شێفڕکردنەوە هەڵبژێرە:</string>
+    <string name="please_enter_passphrase">تکایە پاسفریز بنووسە</string>
+    <string name="please_choose_gpg_file">تکایە پەڕگەی .gpg هەڵبژێرە</string>
+    <string name="decrypted_and_saved">شێفڕکرایەوە و پاشەکەوتکرا</string>
+    <string name="decrypt_and_save">شێفڕ بکەرەوە و پاشەکەوت بکە</string>
+    <string name="encrypted_file_selected">پەڕگەی شێفڕکراو هەڵبژێردرا</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">کلیل هاوردە بکە (.asc):</string>
+    <string name="public_key_selected">کلیلی گشتی هەڵبژێردرا</string>
+    <string name="secret_key_selected">کلیلی نهێنی هەڵبژێردرا</string>
+    <string name="both_keys_detected">هەردوو کلیلی گشتی و نهێنی دۆزرایەوە</string>
+    <string name="suggested_name">ناوی پێشنیارکراو: %1$s</string>
+    <string name="not_a_valid_public_key">پەڕگەی هەڵبژێردراو کلیلی گشتیی دروست نییە</string>
+    <string name="import_success">هاوردەکردن سەرکەوتوو بوو</string>
+    <string name="import_failed">هاوردەکردن سەرکەوتوو نەبوو</string>
+    <string name="public_key_missing_for_secret">کلیلی نهێنی دۆزرایەوە، بەڵام کلیلی گشتی لە هەمان پەڕگەدا نەبوو</string>
+    <string name="save_to_table">پاشەکەوت بۆ لیست</string>
+    <string name="verifying_passphrase">پاسفریز پشکنراوە…</string>
+    <string name="passphrase_incorrect">پاسفریز هەڵەیە یان کلیل ناکرێتەوە</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">تکایە ناو و وشەی نهێنی بنووسە</string>
+    <string name="key_created_and_saved">کلیل دروستکرا و پاشەکەوتکرا</string>
+    <string name="db_save_failed">پاشەکەوتکردن لە بنکەدراوەدا سەرکەوتوو نەبوو</string>
+    <string name="min_password_length">وشەی نهێنی دەبێت لانیکەم 100 کاراکتەر بێت</string>
+    <string name="generated_password_message">وشەی نهێنییەکی بەهێز دروستکرا</string>
+    <string name="show">پیشاندان</string>
+    <string name="hide">شاردنەوە</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">کلیلێک هەڵبژێرە بۆ دەرهێنانی کلیلی گشتی:</string>
+    <string name="no_keys">هیچ کلیلی نییە.</string>
+    <string name="export_success_asc">کلیلەکان بە شێوەی ASC دەرهێنران</string>
+    <string name="export_choice_title">جۆری دەرهێنان</string>
+    <string name="export_choice_message">چی دەتهەوێت دەرهێنیت بۆ "%1$s"؟</string>
+    <string name="export_public_only">تەنها کلیلی گشتی</string>
+    <string name="export_both_keys">کلیلی گشتی + نهێنی</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">کلیلێک هەڵبژێرە بۆ سڕینەوە:</string>
+    <string name="confirm_delete_title">پشتڕاستکردنەوەی سڕینەوە</string>
+    <string name="confirm_delete_message">کلیلەکەی بە ناوی "%1$s" بسڕێتەوە؟ ئەمە گەڕانەوەی نییە.</string>
+    <string name="confirm_delete_multiple_message">%1$d کلیل بسڕێنەوە؟ ئەمە گەڕانەوەی نییە.</string>
+    <string name="delete_success">کلیل سڕایەوە</string>
+    <string name="delete_failed">سڕینەوە سەرکەوتوو نەبوو</string>
+    <string name="delete_selected">هەڵبژێردراوەکان بسڕەوە (%1$d)</string>
+    <string name="delete_database">بنکەدراوە بسڕەوە</string>
+    <string name="confirm_delete_db_title">بنکەدراوە بسڕێتەوە؟</string>
+    <string name="confirm_delete_db_message">هەموو تۆمارەکانی کلیل دەسڕدرێنەوە. ئەمە گەڕانەوەی نییە.</string>
+    <string name="db_deleted_success">بنکەدراوە سڕایەوە</string>
+    <string name="db_deleted_failed">نەتوانرا بنکەدراوە بسڕدرێتەوە</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">نەتوانرا پەڕگە بخوێندرێتەوە: %1$s</string>
+    <string name="save_failed_with_reason">پاشەکەوتکردن سەرکەوتوو نەبوو: %1$s</string>
+    <string name="encrypt_failed_with_reason">شێفڕکردن سەرکەوتوو نەبوو: %1$s</string>
+    <string name="decrypt_failed_with_reason">شێفڕکردنەوە سەرکەوتوو نەبوو: %1$s</string>
+    <string name="error_with_reason">هەڵە: %1$s</string>
+    <string name="export_failed_with_reason">دەرهێنان سەرکەوتوو نەبوو: %1$s</string>
+    <string name="not_a_valid_encrypted_file">پەڕگەی هەڵبژێردراو پەڕگەی شێفڕکراوی دروست نییە</string>
+    <string name="key_incorrect">کلیلی هەڵبژێردراو بۆ ئەم پەڕگەیە دروست نییە</string>
+    <string name="no_matching_secret_key">هیچ کلیلی نهێنیی هاوتا نەدۆزرایەوە</string>
+    <string name="passphrase_required_auto_decrypt">کلیلی نهێنیی هاوتا بۆ ئەم پەڕگەیە دۆزرایەوە، بەڵام پاسفریز پێویستە</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">هەڵوەشاندنەوە</string>
+    <string name="operation_cancelled">کارەکە هەڵوەشێندرایەوە</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">ڕێکخستنەکانی زمان</string>
+    <string name="use_toggles_below">تکایە لە هەڵبژاردەکانی زمان لە خوارەوە بەکاربهێنە</string>
+</resources>

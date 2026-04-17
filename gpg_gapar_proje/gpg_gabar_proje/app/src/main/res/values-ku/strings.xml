@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">Şîfre Bike - Şîfre Veke</string>
+    <string name="about_label">Derbarê Bernameyê</string>
+    <string name="about_title">Derbarê Bernameya GPG Gabar De</string>
+    <string name="enter_passphrase">Şîfre Derbas Bike</string>
+    <string name="about_text">Ev bername ji bo zindîkirina bîranîna yek ji lehengên şerê di navbera gerîlayên azadiya kurd û dewleta tirk de hatiye pêşxistin: Şehîd Gabar Botan - Abdurrahim Erzen, endamê fermandariya Eyaleta Şehîd Delîl li aliyê Rojavayê Zapê û fermandarê fedaî yê Hêzên Taybet.\n\nBernameya GPG Gabar li ser bingeha PGP (Pretty Good Privacy) hatiye amadekirin û ji bo ku li ser telefon û tablêtên ANDROID bi awayekî hêsan û ewle kar bike hatiye dizayn kirin. Armanca sereke ya bernameyê ev e ku bikarhêner bikarin dosye û nivîsên xwe bi awayekî ewle şîfre bikin û vekin. Hemû taybetmendî bi awayekî berfireh hatine ceribandin da ku pêbawerî û performansê bilind were misoger kirin.\n\nJi bo ewlehiya bilind, divê şîfreya bikarhênerê mifte gelek xurt be û herî kêm ji 100 karakteran pêk were. Şîfreyên ku ev şert nepejirînin, ji aliyê bernameyê ve nayên qebûlkirin.\n\nEm hêvîdar in ku ev bername di pêşxistina peywendiya ewle û rêvebirina daneyên şîfrekirî de alîkariya we bike.\n\nBernameya GPG Gabar ji aliyê Koma Cybergah ve hatiye amadekirin.\n\nJi hemû bikarhêneran re serkeftin dixwazin…</string>
+
+    <!-- Help -->
+    <string name="help">Alîkarî</string>
+    <string name="help_home_title">Destpêk</string>
+    <string name="help_home_body">Şîfre bike, Şîfreyê veke an jî naveroka dosyeya nivîsî şîfre bike.\nBerî her tiştî mifte çêke an mifte bîne.\nJi bo parvekirina mifteya giştî derxe bikar bîne.</string>
+    <string name="help_create_key_title">Mifte çêkirin</string>
+    <string name="help_create_key_body">1) Navek binivîse.\n2) Şîfre divê herî kêm 100 karakter be.\n3) Mifte çêke û şîfreyê bi ewlehî biparêze.\n\nŞîfreyê bi kesek re parve neke.</string>
+    <string name="help_import_title">Mifte anîn (import)</string>
+    <string name="help_import_body">1) Dosyeyên mifte yên .asc hilbijêre.\n2) Bername mifteyên giştî û veşartî cuda bi cih dike.\n3) Heke pêwist be şîfreyê binivîse.\n4) Mifte bixweber li lîstê tê zêdekirin.</string>
+    <string name="help_export_title">Mifte derxistin (export)</string>
+    <string name="help_export_body">1) Mifteyên ku tu dixwazî derxî hilbijêre.\n2) Tenê Giştî an Giştî + Veşartî hilbijêre.\n3) Cihê qeydkirinê hilbijêre.\n4) Heke pêwist be şîfreyê binivîse.\n5) Dosyeyên we wek name-public.asc û name-secret.asc tên qeyd kirin.</string>
+    <string name="help_encrypt_file_title">Dosya şîfrekirin (.gpg)</string>
+    <string name="help_encrypt_file_body">1) Dosya ku tu dixwazî şîfre bikî hilbijêre.\n2) Yek an çend mifteyên giştî hilbijêre.\n3) Cihê qeydkirina encama şîfrekirî hilbijêre.\n4) Dosya wek .gpg tê qeyd kirin.\n\nJi bo vekirinê mifteya veşartî û şîfre pêwiste.</string>
+    <string name="help_decrypt_file_title">Dosya vekirin</string>
+    <string name="help_decrypt_file_body">1) Dosyaya .gpg an .pgp hilbijêre.\n2) Bername li mifteya taybet digere û heke hebe nas dike, û pêvajoya şîfrekirinê vedike.\n3) Heke mifte di bernameyê de tomarkirî be, ew ê şîfreyê nexwaze.\n4) Cihê qeydkirina dosyeya vekirî hilbijêre.</string>
+    <string name="help_text_title">Nivîs şîfrekirin / vekirin</string>
+    <string name="help_text_body">1) Nivîs binivîse an dosyaya nivîskî veke.\n2) Mifteyan hilbijêre.\n3) Nivîsê şîfre bike an veke.\n4) Heke pêwist be şîfreyê binivîse.\n\nQeyd bike nivîsa heyî wek .txt tê qeyd kirin.</string>
+    <string name="help_delete_title">Mifte jêbirin</string>
+    <string name="help_delete_body">1) Mifteyên ku tu dixwazî jê bibî hilbijêre.\n2) Jêbirinê piştrast bike.\n\nTêbînî: ev kar vegerandinê tune ye.</string>
+
+    <!-- Common labels -->
+    <string name="name">Nav</string>
+    <string name="type">Cure</string>
+    <string name="password">Şîfre</string>
+    <string name="passphrase">Şîfre</string>
+    <string name="save">Qeyd bike</string>
+    <string name="export">Derxe</string>
+    <string name="delete">Jê bibe</string>
+    <string name="encrypt">Şîfre bike</string>
+    <string name="no_text_to_encrypt">Nivîs Nîne</string>
+    <string name="key_name_exists">bi heman navî mifte heye!</string>
+    <string name="decrypt">Şîfreyê veke</string>
+    <string name="import_">Zêde Bike</string>
+    <string name="public_">Giştî</string>
+    <string name="secret">Veşartî</string>
+    <string name="choose_file">Dosya Hilbijêre</string>
+    <string name="choose_gpg_file">Dosya Şîfrekirî hilbijêre</string>
+
+    <!-- Text file screen (localization keys) -->
+    <string name="encrypt_text">Nivîsê Şîfre Bike</string>
+    <string name="decrypt_text">Şîfreyê Veke</string>
+    <string name="content_label">Naverok</string>
+    <string name="encrypted_success">Hat Şîfrekirin</string>
+    <string name="decrypted_success">Hat Vekirin</string>
+    <string name="text_file_title">Dosyaya Nivîs</string>
+    <string name="text_file_opened">Dosyaya nivîs hat vekirin</string>
+    <string name="file_saved">Dosya hate qeyd kirin</string>
+    <string name="save_textfile_action">Naveroka nivîsê qeyd bike</string>
+    <string name="select_keys_label">Mifte(yan) hilbijêre</string>
+    <string name="please_select_at_least_one_public_key">Ji bo şîfrekirinê herî kêm mifteyek giştî hilbijêre</string>
+
+
+    <!-- Home actions -->
+    <string name="create_key">Mifte çêke</string>
+    <string name="text_file">Nivîs</string>
+    <!-- New explicit button labels per screen -->
+    <string name="create_new_key">Mifteya nû çêke</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">Ji bo şîfrekirinê mifteyek giştî hilbijêre:</string>
+    <string name="please_select_key">Ji kerema xwe mifteyek hilbijêre</string>
+    <string name="please_select_file">Ji kerema xwe dosya hilbijêre</string>
+    <string name="key_not_found">Mifte nehat dîtin</string>
+    <string name="encrypt_and_save">Şîfre bike û Qeyd bike</string>
+    <string name="file_selected">Dosya hat hilbijartin</string>
+    <string name="encrypted_file_saved">Dosyayê şîfrekrî hat Qeyd kirin</string>
+    <string name="encryption_file_selected">Dosya ji bo şîfrekirinê hat hilbijartin</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">Dosya Şîfrekirî hilbijêre:</string>
+    <string name="please_enter_passphrase">Ji kerema xwe şîfreyê binivîse</string>
+    <string name="please_choose_gpg_file">Ji kerema xwe dosya .gpg hilbijêre</string>
+    <string name="decrypted_and_saved">Şîfre hat vekirin û dosya hat qeydkirin</string>
+    <string name="decrypt_and_save">Veke û Qeyd bike</string>
+    <string name="encrypted_file_selected">Dosyayê şîfrekirî hat hilbijartin</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">Mifte zêde bike (.asc):</string>
+    <string name="public_key_selected">Mifteya giştî hat hilbijartin</string>
+    <string name="secret_key_selected">Mifteya veşartî hat hilbijartin</string>
+    <string name="both_keys_detected">Her du mifte hatin dîtin</string>
+    <string name="suggested_name">Navê pêşniyarî: %1$s</string>
+    <string name="not_a_valid_public_key">Ev mifteya giştî ne derbasdare</string>
+    <string name="import_success">zêde kirin serkeftî bû</string>
+    <string name="import_failed">zêde kirin serneket</string>
+    <string name="public_key_missing_for_secret">Ji bo mifteya veşartî mifteya giştî tune ye</string>
+    <string name="save_to_table">Li tabloyê qeyd bike</string>
+    <string name="verifying_passphrase">şîfre tê piştrastkirin…</string>
+    <string name="passphrase_incorrect">şîfre şaş e an jî mifte nehate vekirin</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">Ji kerema xwe nav û şîfre binivîse</string>
+    <string name="key_created_and_saved">Mifte hate çêkirin û qeyd kirin</string>
+    <string name="db_save_failed">Qeydkirin Danegehê Serneket</string>
+    <string name="min_password_length">Dirêjahiya herî kêm ya şîfreyê divê 100 tîpan be</string>
+    <string name="generated_password_message">Şîfreyek xurt hate afirandin</string>
+    <string name="show">Nîşan Bide</string>
+    <string name="hide">Veşêre</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">Ji bo derxistinê mifteyek hilbijêre:</string>
+    <string name="no_keys">Mifte tune.</string>
+    <string name="export_success_asc">Mifte hate derxistin</string>
+    <string name="export_choice_title">Cureyê derxistinê</string>
+    <string name="export_choice_message">Ji bo "%1$s" çi dixwazî derxî?</string>
+    <string name="export_public_only">Tenê mifteya giştî</string>
+    <string name="export_both_keys">Mifteya giştî + veşartî</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">Ji bo jêbirinê mifteyek hilbijêre:</string>
+    <string name="confirm_delete_title">Piştrastkirina jêbirinê</string>
+    <string name="confirm_delete_message">Mifteya bi navê "%1$s" were jêbirin?</string>
+    <string name="confirm_delete_multiple_message">%1$d mifte bên jêbirin?</string>
+    <string name="delete_success">Mifte hat jêbirin</string>
+    <string name="delete_failed">Jêbirin serneket</string>
+    <string name="delete_selected">Yên hilbijartî jê bibe (%1$d)</string>
+    <string name="delete_database">Danegehê jê bibe</string>
+    <string name="confirm_delete_db_title">Danegehê were jêbirin?</string>
+    <string name="confirm_delete_db_message">Hemû qeydên mifteyê dê bên jêbirin.</string>
+    <string name="db_deleted_success">Danegeh hat jêbirin</string>
+    <string name="db_deleted_failed">Danegeh nehate jêbirin</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">Xwendin bi serneket: %1$s</string>
+    <string name="save_failed_with_reason">qeyd kirin bi serneket: %1$s</string>
+    <string name="encrypt_failed_with_reason">Şîfrekirin bi serneket: %1$s</string>
+    <string name="decrypt_failed_with_reason">Vekirina şîfreyê bi serneket: %1$s</string>
+    <string name="error_with_reason">Şaşitî: %1$s</string>
+    <string name="export_failed_with_reason">Derxistin bi ser neket: %1$s</string>
+    <string name="not_a_valid_encrypted_file">Ev dosyayê şîfrekrî ya derbasdar nake</string>
+    <string name="key_incorrect">Mifteya te ji bo vê Dosyayê ne derbasdar e</string>
+    <string name="no_matching_secret_key">Mifteya veşartî ya têkildar nehate dîtin</string>
+    <string name="passphrase_required_auto_decrypt">Ji bo vê Dosyayê mifteya veşartî ya têkildar heye lê şîfre pêwîst e</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">Betal</string>
+    <string name="operation_cancelled">Kar hat betal kirin</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">Hilbijêrkên Zimanan</string>
+    <string name="use_toggles_below">Ji kerema xwe bi bişkokên zimanê li jêr bikar bîne</string>
+</resources>

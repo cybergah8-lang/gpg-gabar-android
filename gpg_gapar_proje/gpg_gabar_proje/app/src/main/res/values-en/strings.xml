@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">Encrypt - Decrypt</string>
+
+    <!-- About -->
+    <string name="about_label">About</string>
+    <string name="about_title">About GPG Gabar</string>
+    <string name="about_text">This program was developed to keep alive the memory of one of the heroes of the war between Kurdish freedom guerrillas and the Turkish state: Şehid Gabar Botan - Abdurrahim Erzen, a member of the Şehid Delil State Command on the Rojava side of Zap and the fedai commander of Hêzên Taybet.&#10;&#10;The GPG Gabar program is based on PGP (Pretty Good Privacy) and is designed to work easily and securely on ANDROID phones and tablets. The main goal of the program is for users to securely encrypt and decrypt their files and texts. All features have been thoroughly tested to provide high trust and performance.&#10;&#10;For top-level security, the key user\'s password must be very strong and consist of at least 100 characters. Passwords that do not meet this requirement are not accepted by the app.&#10;&#10;We hope this program helps you develop secure communication and manage encrypted data.&#10;&#10;The GPG Gabar program was prepared by the Cybergah Group.&#10;&#10;We wish all users success…</string>
+
+    <!-- Help -->
+    <string name="help">Help</string>
+    <string name="help_home_title">Quick Start</string>
+    <string name="help_home_body">Use Encrypt, Decrypt, or encrypt a text file\u2019s content.\nCreate or import a key first.\nUse Export to share your public key.</string>
+    <string name="help_create_key_title">Create a Key</string>
+    <string name="help_create_key_body">1) Enter a name.\n2) Set a password with at least 100 characters.\n3) Create the key and keep the password safe.\n\nDo not share the password.</string>
+    <string name="help_import_title">Import Keys</string>
+    <string name="help_import_body">1) Select one or more .asc key files.\n2) The app detects public and secret keys.\n3) Enter the password if requested.\n4) The key is added to the list automatically.</string>
+    <string name="help_export_title">Export Keys</string>
+    <string name="help_export_body">1) Select the key(s) to export.\n2) Choose public only or public + secret.\n3) Choose a destination.\n4) Enter the passphrase if requested.\n5) Files are saved as name-public.asc and name-secret.asc.</string>
+    <string name="help_encrypt_file_title">Encrypt a File (.gpg)</string>
+    <string name="help_encrypt_file_body">1) Select a file to encrypt.\n2) Select one or more public keys.\n3) Choose where to save the encrypted output.\n4) The output is saved as a .gpg file.\n\nTo decrypt, you need the matching secret key and passphrase.</string>
+    <string name="help_decrypt_file_title">Decrypt a File</string>
+    <string name="help_decrypt_file_body">1) Select a .gpg or .pgp file.\n2) The app searches for and detects the private key (if available) and guides the decryption process.\n3) If the key is saved in the app, it will not ask for the password.\n4) Choose where to save the decrypted file.</string>
+    <string name="help_text_title">Encrypt / Decrypt Text</string>
+    <string name="help_text_body">1) Write text or open a text file.\n2) Select key(s).\n3) Encrypt or decrypt the text.\n4) Enter the password if requested.\n\nSave stores the current text as a .txt file.</string>
+    <string name="help_delete_title">Delete Keys</string>
+    <string name="help_delete_body">1) Select the keys you want to delete.\n2) Confirm deletion.\n\nNote: This cannot be undone.</string>
+
+    <!-- Common labels -->
+    <string name="name">Name</string>
+    <string name="type">Type</string>
+    <string name="password">Password</string>
+    <string name="passphrase">Passphrase</string>
+    <string name="enter_passphrase">Enter passphrase</string>
+    <string name="save">Save</string>
+    <string name="export">Export</string>
+    <string name="delete">Delete</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="import_">Import</string>
+    <string name="public_">Public</string>
+    <string name="secret">Secret</string>
+    <string name="choose_file">Choose file</string>
+    <string name="choose_gpg_file">Choose a .gpg file</string>
+    <string name="key_name_exists">A key with the same name already exists</string>
+    <string name="no_text_to_encrypt">No text to encrypt</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">Encrypt Text</string>
+    <string name="decrypt_text">Decrypt Text</string>
+    <string name="content_label">Content</string>
+    <string name="encrypted_success">Encrypted</string>
+    <string name="decrypted_success">Decrypted</string>
+    <string name="text_file_title">Text File</string>
+    <string name="text_file_opened">Text file opened</string>
+    <string name="file_saved">File saved</string>
+    <string name="save_textfile_action">Save text content</string>
+    <string name="select_keys_label">Select key(s)</string>
+    <string name="please_select_at_least_one_public_key">Select at least one public key for encryption</string>
+
+    <!-- Home actions -->
+    <string name="create_key">Create Key</string>
+    <string name="text_file">Text File</string>
+    <string name="create_new_key">Create New Key</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">Select a public key for encryption:</string>
+    <string name="please_select_key">Please select a key</string>
+    <string name="please_select_file">Please select a file</string>
+    <string name="key_not_found">Key not found</string>
+    <string name="encrypt_and_save">Encrypt and save</string>
+    <string name="file_selected">File selected</string>
+    <string name="encrypted_file_saved">Encrypted file (.gpg) saved</string>
+    <string name="encryption_file_selected">File selected for encryption</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">Select a private key for decryption:</string>
+    <string name="please_enter_passphrase">Please enter the passphrase</string>
+    <string name="please_choose_gpg_file">Please choose a .gpg file</string>
+    <string name="decrypted_and_saved">Decrypted and saved</string>
+    <string name="decrypt_and_save">Decrypt and save</string>
+    <string name="encrypted_file_selected">Encrypted file selected</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">Import key (.asc):</string>
+    <string name="public_key_selected">Public key selected</string>
+    <string name="secret_key_selected">Secret key selected</string>
+    <string name="both_keys_detected">Both public and secret keys detected</string>
+    <string name="suggested_name">Suggested name: %1$s</string>
+    <string name="not_a_valid_public_key">The selected file is not a valid public key</string>
+    <string name="import_success">Import successful</string>
+    <string name="import_failed">Import failed</string>
+    <string name="public_key_missing_for_secret">Secret key found, but no public key was found in the same file</string>
+    <string name="save_to_table">Save to list</string>
+    <string name="verifying_passphrase">Verifying passphrase…</string>
+    <string name="passphrase_incorrect">Incorrect passphrase or the key could not be unlocked</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">Please enter a name and password</string>
+    <string name="key_created_and_saved">Key created and saved</string>
+    <string name="db_save_failed">Failed to save to database</string>
+    <string name="min_password_length">Password must be at least 100 characters</string>
+    <string name="generated_password_message">A strong password was generated</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">Select a key to export the public key:</string>
+    <string name="no_keys">No keys.</string>
+    <string name="export_success_asc">Keys exported as ASC</string>
+    <string name="export_choice_title">Export type</string>
+    <string name="export_choice_message">What would you like to export for "%1$s"?</string>
+    <string name="export_public_only">Public key only</string>
+    <string name="export_both_keys">Public + secret key</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">Select a key to delete:</string>
+    <string name="confirm_delete_title">Confirm delete</string>
+    <string name="confirm_delete_message">Delete the key named "%1$s"? This cannot be undone.</string>
+    <string name="confirm_delete_multiple_message">Delete %1$d keys? This cannot be undone.</string>
+    <string name="delete_success">Key deleted</string>
+    <string name="delete_failed">Delete failed</string>
+    <string name="delete_selected">Delete selected (%1$d)</string>
+    <string name="delete_database">Delete database</string>
+    <string name="confirm_delete_db_title">Delete the database?</string>
+    <string name="confirm_delete_db_message">All key records will be deleted. This cannot be undone.</string>
+    <string name="db_deleted_success">Database deleted</string>
+    <string name="db_deleted_failed">Database could not be deleted</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">Failed to read file: %1$s</string>
+    <string name="save_failed_with_reason">Save failed: %1$s</string>
+    <string name="encrypt_failed_with_reason">Encryption failed: %1$s</string>
+    <string name="decrypt_failed_with_reason">Decryption failed: %1$s</string>
+    <string name="error_with_reason">Error: %1$s</string>
+    <string name="export_failed_with_reason">Export failed: %1$s</string>
+    <string name="not_a_valid_encrypted_file">The selected file is not a valid encrypted file</string>
+    <string name="key_incorrect">The selected key is not valid for this file</string>
+    <string name="no_matching_secret_key">No matching secret key found</string>
+    <string name="passphrase_required_auto_decrypt">A matching secret key was found for this file, but a passphrase is required</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">Cancel</string>
+    <string name="operation_cancelled">Operation cancelled</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">Language settings</string>
+    <string name="use_toggles_below">Please use the language options below</string>
+</resources>

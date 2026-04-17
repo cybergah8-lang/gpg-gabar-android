@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">GPG Gabar</string>
+    <string name="share_activity_label">Verschlüsseln - Entschlüsseln</string>
+
+    <!-- About -->
+    <string name="about_label">Über</string>
+    <string name="about_title">Über GPG Gabar</string>
+    <string name="about_text">Dieses Programm wurde entwickelt, um die Erinnerung an einen der Helden des Krieges zwischen den kurdischen Freiheitsguerillas und dem türkischen Staat wachzuhalten: Şehid Gabar Botan - Abdurrahim Erzen, Mitglied des Şehid-Delil-Staatskommandos auf der Rojava-Seite von Zap und fedai-Kommandant von Hêzên Taybet.\n\nDas Programm GPG Gabar basiert auf PGP (Pretty Good Privacy) und wurde so konzipiert, dass es auf ANDROID-Telefonen und -Tablets einfach und sicher läuft. Das Hauptziel des Programms ist, dass Nutzer ihre Dateien und Texte sicher ver- und entschlüsseln können. Alle Funktionen wurden umfassend getestet, um ein hohes Maß an Vertrauen und Leistung zu gewährleisten.\n\nFür höchste Sicherheit muss das Passwort des Schlüsselbenutzers sehr stark sein und aus mindestens 100 Zeichen bestehen. Passwörter, die diese Anforderung nicht erfüllen, werden von der App nicht akzeptiert.\n\nWir hoffen, dass dieses Programm Ihnen bei der Entwicklung sicherer Kommunikation und der Verwaltung verschlüsselter Daten hilft.\n\nDas Programm GPG Gabar wurde von der Cybergah-Gruppe vorbereitet.\n\nWir wünschen allen Nutzern viel Erfolg…</string>
+
+    <!-- Help -->
+    <string name="help">Hilfe</string>
+    <string name="help_home_title">Schnellstart</string>
+    <string name="help_home_body">Nutze Verschlüsseln, Entschlüsseln oder verschlüssele den Inhalt einer Textdatei.\nErstelle oder importiere zuerst einen Schlüssel.\nNutze Export, um deinen öffentlichen Schlüssel zu teilen.</string>
+    <string name="help_create_key_title">Schlüssel erstellen</string>
+    <string name="help_create_key_body">1) Gib einen Namen ein.\n2) Setze ein Passwort mit mindestens 100 Zeichen.\n3) Erstelle den Schlüssel und bewahre das Passwort sicher auf.\n\nTeile das Passwort nicht.</string>
+    <string name="help_import_title">Schlüssel importieren</string>
+    <string name="help_import_body">1) Wähle eine oder mehrere .asc-Schlüsseldateien.\n2) Die App erkennt öffentliche und geheime Schlüssel.\n3) Gib das Passwort ein, wenn du dazu aufgefordert wirst.\n4) Der Schlüssel wird automatisch zur Liste hinzugefügt.</string>
+    <string name="help_export_title">Schlüssel exportieren</string>
+    <string name="help_export_body">1) Wähle die zu exportierenden Schlüssel aus.\n2) Wähle Nur öffentlich oder Öffentlich + Geheim.\n3) Wähle ein Ziel.\n4) Gib die Passphrase ein, wenn sie abgefragt wird.\n5) Dateien werden als name-public.asc und name-secret.asc gespeichert.</string>
+    <string name="help_encrypt_file_title">Datei verschlüsseln (.gpg)</string>
+    <string name="help_encrypt_file_body">1) Wähle die zu verschlüsselnde Datei.\n2) Wähle einen oder mehrere öffentliche Schlüssel.\n3) Wähle den Speicherort für die verschlüsselte Ausgabe.\n4) Die Ausgabe wird als .gpg-Datei gespeichert.\n\nZum Entschlüsseln werden der passende geheime Schlüssel und die Passphrase benötigt.</string>
+    <string name="help_decrypt_file_title">Datei entschlüsseln</string>
+    <string name="help_decrypt_file_body">1) Wähle eine .gpg- oder .pgp-Datei.\n2) Die App sucht den privaten Schlüssel (falls vorhanden), erkennt ihn und führt durch den Entschlüsselungsprozess.\n3) Wenn der Schlüssel in der App gespeichert ist, wird nicht nach dem Passwort gefragt.\n4) Wähle, wo die entschlüsselte Datei gespeichert wird.</string>
+    <string name="help_text_title">Text verschlüsseln / entschlüsseln</string>
+    <string name="help_text_body">1) Schreibe Text oder öffne eine Textdatei.\n2) Wähle Schlüssel aus.\n3) Verschlüssele oder entschlüssele den Text.\n4) Gib das Passwort ein, falls erforderlich.\n\nSpeichern legt den aktuellen Text als .txt-Datei ab.</string>
+    <string name="help_delete_title">Schlüssel löschen</string>
+    <string name="help_delete_body">1) Wähle die Schlüssel aus, die du löschen möchtest.\n2) Bestätige das Löschen.\n\nHinweis: Dies kann nicht rückgängig gemacht werden.</string>
+
+    <!-- Common labels -->
+    <string name="name">Name</string>
+    <string name="type">Typ</string>
+    <string name="password">Passwort</string>
+    <string name="passphrase">Passphrase</string>
+    <string name="enter_passphrase">Passphrase eingeben</string>
+    <string name="save">Speichern</string>
+    <string name="export">Exportieren</string>
+    <string name="delete">Löschen</string>
+    <string name="encrypt">Verschlüsseln</string>
+    <string name="decrypt">Entschlüsseln</string>
+    <string name="import_">Importieren</string>
+    <string name="public_">Öffentlich</string>
+    <string name="secret">Geheim</string>
+    <string name="choose_file">Datei auswählen</string>
+    <string name="choose_gpg_file">.gpg-Datei auswählen</string>
+    <string name="key_name_exists">Ein Schlüssel mit demselben Namen existiert bereits</string>
+    <string name="no_text_to_encrypt">Kein Text zum Verschlüsseln</string>
+
+    <!-- Text file screen -->
+    <string name="encrypt_text">Text verschlüsseln</string>
+    <string name="decrypt_text">Text entschlüsseln</string>
+    <string name="content_label">Inhalt</string>
+    <string name="encrypted_success">Verschlüsselt</string>
+    <string name="decrypted_success">Entschlüsselt</string>
+    <string name="text_file_title">Textdatei</string>
+    <string name="text_file_opened">Textdatei geöffnet</string>
+    <string name="file_saved">Datei gespeichert</string>
+    <string name="save_textfile_action">Textinhalt speichern</string>
+    <string name="select_keys_label">Schlüssel auswählen</string>
+    <string name="please_select_at_least_one_public_key">Wählen Sie mindestens einen öffentlichen Schlüssel zum Verschlüsseln aus</string>
+
+    <!-- Home actions -->
+    <string name="create_key">Schlüssel erstellen</string>
+    <string name="text_file">Textdatei</string>
+    <string name="create_new_key">Neuen Schlüssel erstellen</string>
+
+    <!-- Encrypt screen -->
+    <string name="select_public_key_for_encryption">Öffentlichen Schlüssel zum Verschlüsseln auswählen:</string>
+    <string name="please_select_key">Bitte wählen Sie einen Schlüssel aus</string>
+    <string name="please_select_file">Bitte wählen Sie eine Datei aus</string>
+    <string name="key_not_found">Schlüssel nicht gefunden</string>
+    <string name="encrypt_and_save">Verschlüsseln und speichern</string>
+    <string name="file_selected">Datei ausgewählt</string>
+    <string name="encrypted_file_saved">Verschlüsselte Datei (.gpg) gespeichert</string>
+    <string name="encryption_file_selected">Datei zum Verschlüsseln ausgewählt</string>
+
+    <!-- Decrypt screen -->
+    <string name="select_private_key_for_decryption">Privaten Schlüssel zum Entschlüsseln auswählen:</string>
+    <string name="please_enter_passphrase">Bitte geben Sie die Passphrase ein</string>
+    <string name="please_choose_gpg_file">Bitte wählen Sie eine .gpg-Datei aus</string>
+    <string name="decrypted_and_saved">Entschlüsselt und gespeichert</string>
+    <string name="decrypt_and_save">Entschlüsseln und speichern</string>
+    <string name="encrypted_file_selected">Verschlüsselte Datei ausgewählt</string>
+
+    <!-- Import screen -->
+    <string name="import_public_key_title">Schlüssel importieren (.asc):</string>
+    <string name="public_key_selected">Öffentlicher Schlüssel ausgewählt</string>
+    <string name="secret_key_selected">Geheimer Schlüssel ausgewählt</string>
+    <string name="both_keys_detected">Öffentlicher und geheimer Schlüssel erkannt</string>
+    <string name="suggested_name">Vorgeschlagener Name: %1$s</string>
+    <string name="not_a_valid_public_key">Die ausgewählte Datei ist kein gültiger öffentlicher Schlüssel</string>
+    <string name="import_success">Import erfolgreich</string>
+    <string name="import_failed">Import fehlgeschlagen</string>
+    <string name="public_key_missing_for_secret">Geheimer Schlüssel gefunden, aber kein öffentlicher Schlüssel in derselben Datei gefunden</string>
+    <string name="save_to_table">In Liste speichern</string>
+    <string name="verifying_passphrase">Passphrase wird überprüft…</string>
+    <string name="passphrase_incorrect">Falsche Passphrase oder der Schlüssel konnte nicht entsperrt werden</string>
+
+    <!-- Create key screen -->
+    <string name="enter_name_and_password">Bitte geben Sie einen Namen und ein Passwort ein</string>
+    <string name="key_created_and_saved">Schlüssel erstellt und gespeichert</string>
+    <string name="db_save_failed">Speichern in der Datenbank fehlgeschlagen</string>
+    <string name="min_password_length">Das Passwort muss mindestens 100 Zeichen lang sein</string>
+    <string name="generated_password_message">Ein starkes Passwort wurde erstellt</string>
+    <string name="show">Anzeigen</string>
+    <string name="hide">Ausblenden</string>
+
+    <!-- Export screen -->
+    <string name="choose_key_to_export_title">Wählen Sie einen Schlüssel zum Exportieren des öffentlichen Schlüssels aus:</string>
+    <string name="no_keys">Keine Schlüssel.</string>
+    <string name="export_success_asc">Schlüssel als ASC exportiert</string>
+    <string name="export_choice_title">Exporttyp</string>
+    <string name="export_choice_message">Was möchten Sie für "%1$s" exportieren?</string>
+    <string name="export_public_only">Nur öffentlicher Schlüssel</string>
+    <string name="export_both_keys">Öffentlicher + geheimer Schlüssel</string>
+
+    <!-- Delete screen -->
+    <string name="choose_key_to_delete_title">Wählen Sie einen Schlüssel zum Löschen aus:</string>
+    <string name="confirm_delete_title">Löschen bestätigen</string>
+    <string name="confirm_delete_message">Schlüssel "%1$s" löschen? Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="confirm_delete_multiple_message">%1$d Schlüssel löschen? Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="delete_success">Schlüssel gelöscht</string>
+    <string name="delete_failed">Löschen fehlgeschlagen</string>
+    <string name="delete_selected">Ausgewählte löschen (%1$d)</string>
+    <string name="delete_database">Datenbank löschen</string>
+    <string name="confirm_delete_db_title">Datenbank löschen?</string>
+    <string name="confirm_delete_db_message">Alle Schlüssel-Einträge werden gelöscht. Dies kann nicht rückgängig gemacht werden.</string>
+    <string name="db_deleted_success">Datenbank gelöscht</string>
+    <string name="db_deleted_failed">Datenbank konnte nicht gelöscht werden</string>
+
+    <!-- Errors with formatting -->
+    <string name="read_failed_with_reason">Datei konnte nicht gelesen werden: %1$s</string>
+    <string name="save_failed_with_reason">Speichern fehlgeschlagen: %1$s</string>
+    <string name="encrypt_failed_with_reason">Verschlüsselung fehlgeschlagen: %1$s</string>
+    <string name="decrypt_failed_with_reason">Entschlüsselung fehlgeschlagen: %1$s</string>
+    <string name="error_with_reason">Fehler: %1$s</string>
+    <string name="export_failed_with_reason">Export fehlgeschlagen: %1$s</string>
+    <string name="not_a_valid_encrypted_file">Die ausgewählte Datei ist keine gültige verschlüsselte Datei</string>
+    <string name="key_incorrect">Der ausgewählte Schlüssel ist für diese Datei nicht gültig</string>
+    <string name="no_matching_secret_key">Kein passender geheimer Schlüssel gefunden</string>
+    <string name="passphrase_required_auto_decrypt">Ein passender geheimer Schlüssel wurde für diese Datei gefunden, aber eine Passphrase ist erforderlich</string>
+
+    <!-- Cancel / operation status -->
+    <string name="cancel">Abbrechen</string>
+    <string name="operation_cancelled">Vorgang abgebrochen</string>
+
+    <!-- Settings / Language -->
+    <string name="language_settings">Spracheinstellungen</string>
+    <string name="use_toggles_below">Bitte verwenden Sie die Sprachoptionen unten</string>
+</resources>
