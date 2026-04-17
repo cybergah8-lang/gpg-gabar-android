@@ -1,4 +1,9 @@
 
+<div align="center">
+
+<img src="image%20(4).jpg" alt="GPG Gabar" width="720" />
+
+</div>
 
 # GPG Gabar
 
