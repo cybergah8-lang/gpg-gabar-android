@@ -1,10 +1,10 @@
 <div align="center">
-
-<img src="images(4).png" alt="GPG Gabar" width="720" />
-
+  <img src="GU1cr.jpg" alt="GPG Gabar Tanıtım" width="700" />
 </div>
 
 # GPG Gabar
+
+Sepaneke Androidê ya li ser standarda PGP/OpenPGP şîfrekirina nivîs û pelan dike.
 
 Sepaneke Androidê ye ku li ser standarda cîhanî ya PGP/OpenPGP hatiye avakirin. Ev sepan rê dide te ku nivîs û pelên xwe bi ewlehiya bilind bişîfre bikî û dema pêwîst be jî wan veki.
 
