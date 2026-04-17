@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images (4).png" alt="GPG Gabar" width="720" />
+<img src="images(4).png" alt="GPG Gabar" width="720" />
 
 </div>
 
