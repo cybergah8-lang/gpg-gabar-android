@@ -1,4 +1,10 @@
-# GPG Gabar (Android)
+<div align="center">
+
+<img src="images/gpg-gabar-poster.png" alt="GPG Gabar" width="720" />
+
+</div>
+
+# GPG Gabar
 
 Sepaneke Androidê ye ku li ser standarda cîhanî ya PGP/OpenPGP hatiye avakirin. Ev sepan rê dide te ku nivîs û pelên xwe bi ewlehiya bilind bişîfre bikî û dema pêwîst be jî wan veki.
 
