@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="images (4).png" alt="GPG Gabar Tanıtım" width="700" />
-</div>
+
 
 # GPG Gabar
 
